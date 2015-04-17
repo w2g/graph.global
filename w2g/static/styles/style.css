@@ -1,0 +1,10 @@
+
+body {
+    width: 600px;
+}
+
+.w2g-tag {
+color: green;
+padding: 3px 5px;
+border-radius: 3px;
+}
