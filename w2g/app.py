@@ -13,9 +13,11 @@
 from flask import Flask
 from flask.ext.routing import router
 import views
+from views import api
 from configs import options
 
 urls = ('/partials/<path:partial>', views.Partial,
+        '/api', api,
         '/<path:uri>', views.Base,
         '/', views.Base
         )

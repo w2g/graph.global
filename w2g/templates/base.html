@@ -4,10 +4,18 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>app.py</title>
-        <meta name="description" content="">
+        <meta property='og:title' content="World Wide Graph (w2g)">
+        <meta plroperty='og:image' content="https://avatars3.githubusercontent.com/u/11985352" />
+        <meta property='og:description' content='Graph.global is a public, collaboratively maintained graph knowledge database of semantic entity tags and their relationships.' />
+
+        <title>World Wide Graph</title>
+        <meta name="description" content="Graph.global is a public, collaboratively maintained graph knowledge database of semantic entity tags and their relationships.">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <script type="text/javascript" src="/static/build/js/app.js"></script>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-alpha1/jquery.min.js"></script>
+        <link href='//fonts.googleapis.com/css?family=Alegreya+Sans:400,300,100italic|Fredoka+One' rel='stylesheet' type='text/css'>
+        <link href='//fonts.googleapis.com/css?family=Lora|Raleway:400,100' rel='stylesheet' type='text/css'>
+        <script type="text/javascript" src="/static/js/app.js"></script>
+        <link rel="shortcut icon" href="/static/favicon.ico">
         <link rel="stylesheet" type="text/css" href="/static/styles/style.css"/>
     </head>
     <body>
@@ -15,88 +23,7 @@
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
 
-        <!-- Add your site or application content here -->
-	<h1>w2g</h1>
-        <h2>The World Wide Graph</h2>
-        <p>
-          The World Wide Graph (w2g) is a global database of unique
-          entities (people, places, things) which spans and is
-          accessible by the entire World Wide Web.
-        </p>
-        <ul>
-          <li>Any website in the world can connect to the Graph to tag
-          and notify relevant people.
-          </li>
-          <li><mark>Get notified when you are tagged
-            in <strong>any</strong> website accross
-            the <em>entire</em> web</mark>.
-          </li>
-        </ul>
-        <form onsubmit="email()">
-          <h3>Register your universal tag</h3>          
-          <p>
-            Registration is secure and as simple as sending an email. We'll reply
-            with a confirmation email to activate your tag.
-          </p>
-          <input type="submit" value="Register Your Tag" />
-          <script type="text/javascript">
-            function email() {
-              window.open('mailto:graph+michael.karpeles@gmail.com?subject=[REGISTER]');
-            }
-          </script>
-        </form>        
-       
-        
-        <h3>Managing Your Tag</h3>
-        <p>
-          There are tons of advantages of having a tag in the
-          Graph. Most of the advantages come from how you decide to
-          configure it. You can customize when to be notified when you
-          are mentioned, decide what info people see, and even endorse
-          or dispute your tags. By default, your tags are displayed as
-          "unverified" until you verify them.
-        <p>
-
-        <p>
-          Edits your account preferences is managed exclusively
-          through email, so no password is required or will ever be
-          leaked. <a href="/auth">Learn how</a> it works.
-        </p>
-
-        <h3>Contributing to the Graph</h3>
-        <p>W2g works similarly to Wikipedia. Anyone can suggest edits
-        or register nodes, permitting they
-        provide <a href="/proof">adequate proof</a>. The w2g committee
-        reviews each case for quality and accuracy.
-          <a href="mailto:michael.karpeles@gmail.com">Want to be on the founding committee?</a>
-        </p>
-
-        <h3>Privacy</h3>
-        <p>W2g is a non-profit initiative and doesn't store any data
-        private data you don't tell it to.</p>
-
-        <h3>Developers</h3>
-        <h4>Using the Graph</h4>
-        <p>Any website in the world can tap into the global
-          graph. Doing so is as easy as importing a single
-          javascript library, just like google analytics
-        </p>
-
-        <h5>Installation</h5>
-        <code>
-          &lt;script type="text/javascript" src="<a href="/assets/graph.js">/assets/graph.js</a>"&gt;&lt;/script&gt;
-        </code>
-
-        <h5>Referencing a tag</h5>
-        <code>
-          &lt;cite id="?" class="w2g-tag"&gt;Michael Evan Karpeles (Mek)&lt;/cite&gt;
-        </code>
-
-        <h5>Styling a tag</h5>
-        <p>By default, a tag has minimal style. Like a link, it is
-        distincly colored (green, instead of blue) and italicized by
-        the cite tag. It looks like this:</p>
-        <cite class="w2g-tag">Michael Evan Karpeles (Mek)</cite>
+        {% include template %}
 
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
         <script>

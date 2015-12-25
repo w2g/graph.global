@@ -1,6 +1,12 @@
 
 body {
     width: 600px;
+    //font-family: 'Lora', serif;
+    font-family: 'Raleway', sans-serif;
+}
+
+h1 {
+    font-weight: 100;
 }
 
 .w2g-tag {

@@ -1,0 +1,4278 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json", 
+    "@type": "sc:Collection", 
+    "manifests": [
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b83045120/manifest.json", 
+            "label": "Livre des Morts d'Ankhesenaset. Egyptien 74"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b9078201t/manifest.json", 
+            "label": "Paris, BnF,  MSS Latin 13836"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b83044844/manifest.json", 
+            "label": "Livre des Morts de Soutym\u00e8s. Egyptien 41"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b83044206/manifest.json", 
+            "label": "Paris, BnF, MSS Japonais 4168"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b8585599x/manifest.json", 
+            "label": "Paris, BnF,  MSS Latin 7558"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b85722380/manifest.json", 
+            "label": "Paris, BnF,  MSS Latin 1622"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b8304509h/manifest.json", 
+            "label": "Livre des Morts d'Ankhesenaset. Egyptien 71"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b8304525m/manifest.json", 
+            "label": "Livre des Morts d'Ankhesenaset. Egyptien 87"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b8304596p/manifest.json", 
+            "label": "Papyrus mythologique de Tanytamon. Egyptien 170"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b83045083/manifest.json", 
+            "label": "Livre des Morts d'Ankhesenaset. Egyptien 70"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b83045105/manifest.json", 
+            "label": "Livre des Morts d'Ankhesenaset. Egyptien 72"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b8304511k/manifest.json", 
+            "label": "Livre des Morts d'Ankhesenaset. Egyptien 73"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b9063502f/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 20311"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b90677721/manifest.json", 
+            "label": "Paris, BnF,  MSS Latin 6069"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b9067090j/manifest.json", 
+            "label": "Paris, BnF,  MSS Latin 7028"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b90679237/manifest.json", 
+            "label": "Paris, BnF,  MSS Latin 10322"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b9066990b/manifest.json", 
+            "label": "Paris, BnF,  MSS Latin 10616"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b9076834n/manifest.json", 
+            "label": "Paris, BnF,  MSS Latin 12117"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b8419214v/manifest.json", 
+            "label": "Paris, BnF,  MSS Arabe 1184"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b55002481n/manifest.json", 
+            "label": "Paris, BnF,  MSS Espagnol 30"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b55002490m/manifest.json", 
+            "label": "Paris, BnF, MSS biblioth\u00e8que des ducs de Milan \u00e0 Pavie  Latin 4850Latin 4850"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b9058935g/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 361"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b8304430k/manifest.json", 
+            "label": "Paris, BnF,  MSS Smith-Lesou\u00ebf Japonais 3"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b9062198n/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 19081"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b90595162/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 783"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b10509307d/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 2794"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b10515437z/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 599"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b52500094v/manifest.json", 
+            "label": "Paris, BnF,  MSS Suppl\u00e9ment grec 853"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b103088974/manifest.json", 
+            "label": "Paris, BnF,  MSS Latin 10592"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b8304435n/manifest.json", 
+            "label": "Hitomotogiku \u3072\u3068\u3082\u3068\u83ca / Kanbun \u5bdb\u6587 (1661-1673)"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b8304481w/manifest.json", 
+            "label": "Livre des Morts de Soutym\u00e8s. Egyptien 38"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b8304514t/manifest.json", 
+            "label": "Livre des Morts d'Ankhesenaset. Egyptien 76"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b9059373d/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 151"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b6000255b/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 78"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b90590897/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 96"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b6000083z/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 9342"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b9063633b/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 25528"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b105020769/manifest.json", 
+            "label": "Paris, BnF,  MSS Latin 1226(1)"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b9076663p/manifest.json", 
+            "label": "Paris, BnF,  MSS Latin 4670"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b90725774/manifest.json", 
+            "label": "Paris, BnF,  MSS Latin 16721"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b90581186/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 718"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b8432899d/manifest.json", 
+            "label": "Paris, BnF,  MSS Suppl\u00e9ment Persan 985"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b10509026n/manifest.json", 
+            "label": "Paris, BnF, MSS Smith-Lesou\u00ebf japonais 165"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b9061595g/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 12573"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b6000424g/manifest.json", 
+            "label": "Paris, BnF,  MSS NAL 3134"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b90637202/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 24405"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b8529522z/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 1544"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b60006156/manifest.json", 
+            "label": "Paris, BnF,  MSS Arabe 5036"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b83044221/manifest.json", 
+            "label": "Paris, BnF, MSS Japonais 4260"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b8438663z/manifest.json", 
+            "label": "Paris, BnF,  MSS italien 1712"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b8423837b/manifest.json", 
+            "label": "Paris, BnF,  MSS Latin 2859"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b105094102/manifest.json", 
+            "label": "Paris, BnF,  MSS NAL 1416"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b8438674r/manifest.json", 
+            "label": "Paris, BnF,  MSS Latin 11641"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b85856004/manifest.json", 
+            "label": "Paris, BnF,  MSS Latin 8093"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b8594596n/manifest.json", 
+            "label": "Paris, BnF,  MSS NAL 1460"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b55002478c/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 20122"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b9009645r/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 74"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b9009644b/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 81"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b6000254x/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 77"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b90096250/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 88"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b9059104g/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 91"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b9059120k/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 102"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b6000091h/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 114F. 206-354"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b9009540b/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 129"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b90095121/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 16997"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b9063693m/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 25397"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b8538814d/manifest.json", 
+            "label": "Paris, BnF,  MSS Latin 6 (4)"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b6000115g/manifest.json", 
+            "label": ""
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b52503954n/manifest.json", 
+            "label": "Paris, BnF,  MSS Smith-Lesou\u00ebf japonais K 13 (2) : \u4e0b\u5dfb"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b9060848j/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 9123"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b8432308v/manifest.json", 
+            "label": "Paris, BnF,  MSS Latin 796"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b85388026/manifest.json", 
+            "label": "Paris, BnF,  MSS Latin 6 (1)"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b525031179/manifest.json", 
+            "label": "Paris, BnF, Biblioth\u00e8que de l'Arsenal  Ms-5069 r\u00e9serve"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b55005888b/manifest.json", 
+            "label": "Paris, BnF, Biblioth\u00e8que de l'Arsenal  Ms-1036 r\u00e9serve"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b550081732/manifest.json", 
+            "label": "Paris, BnF, Biblioth\u00e8que de l'Arsenal  3353"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b84152188/manifest.json", 
+            "label": "Paris, BnF,  MSS Arabe 3467"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b8594599w/manifest.json", 
+            "label": "Paris, BnF,  MSS NAL 602"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b8585598h/manifest.json", 
+            "label": "Paris, BnF,  MSS Latin 7540"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b8572239d/manifest.json", 
+            "label": "Paris, BnF,  MSS Latin 1764"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b8438678d/manifest.json", 
+            "label": "Paris, BnF,  MSS italien 1711"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b83045157/manifest.json", 
+            "label": "Livre des Morts d'Ankhesenaset. Egyptien 77"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b8304518g/manifest.json", 
+            "label": "Livre des Morts d'Ankhesenaset. Egyptien 80"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b83045172/manifest.json", 
+            "label": "Livre des Morts d'Ankhesenaset. Egyptien 79"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b103038173/manifest.json", 
+            "label": "Paris, BnF,  MSS Mexicain 11-12"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b9059130z/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 58"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b90591299/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 57"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b9059224k/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 59"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b90096309/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 62"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b6000253h/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 75"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b9058956n/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 339"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b90613966/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 9685"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b9060811h/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 12558"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b8447296x/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 2090"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b90631252/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 24381"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b9066878j/manifest.json", 
+            "label": "Paris, BnF,  MSS Latin 6 (1)"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b9077803d/manifest.json", 
+            "label": "Paris, BnF,  MSS Latin 37(2)"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b9065943c/manifest.json", 
+            "label": "Paris, BnF,  MSS Latin 1408"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b8422954w/manifest.json", 
+            "label": "Paris, BnF,  MSS Arabe 2278"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b8410889v/manifest.json", 
+            "label": "Paris, BnF,  MSS Persan 377"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b90072465/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 10420"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b9007667q/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 356"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b90076684/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 363"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b84516032/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 25516"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b10520111w/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 179"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b9009541r/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 12567"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b8426793j/manifest.json", 
+            "label": "Paris, BnF,  MSS NAL 1132"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b84322162/manifest.json", 
+            "label": "Paris, BnF,  MSS Suppl\u00e9ment Persan 1171"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b9009626d/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 42"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b530148322/manifest.json", 
+            "label": "Paris, BnF,  MSS Smith-Lesou\u00ebf Japonais 132"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b8304423f/manifest.json", 
+            "label": "Paris, BnF, MSS Japonais 4260"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b8451636f/manifest.json", 
+            "label": "Paris, BnF,  MSS Latin 8824"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b8550860q/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 1847"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b9063948t/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 25440"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b8427253m/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 875"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b9058906r/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 818"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b84470663/manifest.json", 
+            "label": "Paris, BnF,  MSS Latin 2231 (3)"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b8470174n/manifest.json", 
+            "label": "Paris, BnF,  MSS Latin 2219"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b8541004c/manifest.json", 
+            "label": "Paris, BnF,  MSS Latin 11576"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b105157462/manifest.json", 
+            "label": "Paris, BnF,  MSS Grec 64"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b60005739/manifest.json", 
+            "label": "Paris, BnF, MSS Japonais 5345"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b6001309r/manifest.json", 
+            "label": "Paris, BnF,  MSS H\u00e9breu 1405"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b83045261/manifest.json", 
+            "label": "Livre des Morts d'Ankhesenaset. Egyptien 88"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b8572241g/manifest.json", 
+            "label": "Paris, BnF,  MSS Latin 2449"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b10303825m/manifest.json", 
+            "label": "Paris, BnF, MSS   Mexicain 396"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b8304523s/manifest.json", 
+            "label": "Livre des Morts d'Ankhesenaset. Egyptien 85"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b83044829/manifest.json", 
+            "label": "Livre des Morts de Soutym\u00e8s. Egyptien 39"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b8304520j/manifest.json", 
+            "label": "Livre des Morts d'Ankhesenaset. Egyptien 82"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b9058864v/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 2628"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b90615126/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 9082"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b8529692z/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 61"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b6000256r/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 79"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b6000258k/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 147"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b8527591k/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 358"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b9059177c/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 400"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b8540950d/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 698"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b105065252/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 2186"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b8449033b/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 2693"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b9063616t/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 12424"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b60007997/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 22545"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b9063528p/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 22554"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b60002590/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 24364"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b90095477/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 283"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b84108945/manifest.json", 
+            "label": "Paris, BnF,  MSS Persan 259"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b8414998d/manifest.json", 
+            "label": "Paris, BnF,  MSS Suppl\u00e9ment turc 1063"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b8432530c/manifest.json", 
+            "label": "Paris, BnF,  MSS Suppl\u00e9ment turc 1081"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b8455788r/manifest.json", 
+            "label": "Paris, BnF,  MSS NAF 4515"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b52502484n/manifest.json", 
+            "label": "Paris, BnF,  MSS NAL 302"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b52000480s/manifest.json", 
+            "label": "Paris, BnF,  MSS NAL 1340"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b84496839/manifest.json", 
+            "label": "Paris, BnF,  MSS NAL 3093"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b90074122/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 1877"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b8426808j/manifest.json", 
+            "label": "Paris, BnF,  MSS italien 81"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b8446925z/manifest.json", 
+            "label": "Paris, BnF,  MSS NAF 23686"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b84920806/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 120"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b84272348/manifest.json", 
+            "label": "Paris, BnF,  MSS Latin 2225"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b9009627t/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 43"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b84470485/manifest.json", 
+            "label": "Paris, BnF,  MSS Suppl\u00e9ment Persan 2038"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b90581060/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 720"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b90581223/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 709"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b525002880/manifest.json", 
+            "label": "Paris, BnF,  MSS Latin 5134"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b8304417q/manifest.json", 
+            "label": "Tanabata \u4e03\u5915 / Kanbun \u5bdb\u6587(1661-1673)"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b525000902/manifest.json", 
+            "label": "Paris, BnF,  MSS Suppl\u00e9ment grec 856"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b90582493/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 2820"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b90582797/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 5650"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b550014245/manifest.json", 
+            "label": "Paris, BnF,  MSS Latin 9390"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b90589201/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 2182"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b8427172m/manifest.json", 
+            "label": "Paris, BnF,  MSS Suppl\u00e9ment Persan 1401"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b55005968w/manifest.json", 
+            "label": "Paris, BnF,  MSS Mexicain 13-14"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b9063687w/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 24948"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b6000563x/manifest.json", 
+            "label": "Paris, BnF,  MSS NAL 1171"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b55005834g/manifest.json", 
+            "label": "Paris, BnF,  MSS Mexicain 23-24"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b8304428h/manifest.json", 
+            "label": "Kibune j\u00f4 (ge) \u304d\u3076\u306d \u4e0a(\u4e0b\uff09 / D\u00e9but de l'\u00e9poque d'Edo \u6c5f\u6238\u524d\u671f"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b83044399/manifest.json", 
+            "label": "Paris, BnF, MSS Smith-Lesou\u00ebf Japonais 177"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b8305791m/manifest.json", 
+            "label": "Paris, BnF, MSS Smith-Lesou\u00ebf Japonais K. 44"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b85855921/manifest.json", 
+            "label": "Paris, BnF,  MSS Latin 13371"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b8304500s/manifest.json", 
+            "label": "Livre des Morts d'Ankhesenaset. Egyptien 62"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b83045016/manifest.json", 
+            "label": "Livre des Morts d'Ankhesenaset. Egyptien 63"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b83045031/manifest.json", 
+            "label": "Livre des Morts d'Ankhesenaset. Egyptien 65"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b8304504f/manifest.json", 
+            "label": "Livre des Morts d'Ankhesenaset. Egyptien 66"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b8304521z/manifest.json", 
+            "label": "Livre des Morts d'Ankhesenaset. Egyptien 83"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b83045246/manifest.json", 
+            "label": "Livre des Morts d'Ankhesenaset. Egyptien 86"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b8304505v/manifest.json", 
+            "label": "Livre des Morts d'Ankhesenaset. Egyptien 67"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b55002485f/manifest.json", 
+            "label": "Paris, BnF,  MSS Italien 1698"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b8304433t/manifest.json", 
+            "label": "Paris, BnF,  MSS "
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b550024912/manifest.json", 
+            "label": "Paris, BnF,  MSS Suppl\u00e9ment grec 1094"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b8304487c/manifest.json", 
+            "label": "Livre des Morts de Soutym\u00e8s. Egyptien 44"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b8438621m/manifest.json", 
+            "label": "Paris, BnF,  MSS Latin 4846"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b9060558w/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 726"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b9059153z/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 772"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b9058124x/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 781"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b90582018/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 791"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b9059173q/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 792"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b9059586q/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 873"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b90583466/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 1298"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b8438669f/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 1386"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b8451101h/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 1587"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b9059916f/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 2170"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b9058138z/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 2619"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b90581527/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 2617"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b9058861m/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 2634"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b9007614k/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 2806"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b90632062/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 6183"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b9006827k/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 24380"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b9068080g/manifest.json", 
+            "label": "Paris, BnF,  MSS Latin 14234"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b60004373/manifest.json", 
+            "label": "Paris, BnF, MSS Suppl\u00e9ment turc 220"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b8427189w/manifest.json", 
+            "label": "Paris, BnF,  MSS Suppl\u00e9ment turc 242"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b8427200g/manifest.json", 
+            "label": "Paris, BnF,  MSS Suppl\u00e9ment turc 993"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b84272029/manifest.json", 
+            "label": "Paris, BnF,  MSS Turc 316"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b550063539/manifest.json", 
+            "label": "Paris, BnF,  MSS NAF 5243"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b72000827/manifest.json", 
+            "label": "Paris, BnF,  MSS NAF 16251"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b60007144/manifest.json", 
+            "label": "Paris, BnF,  MSS NAF 24920"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b525017457/manifest.json", 
+            "label": "Paris, BnF,  MSS NAL 302"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b90073757/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 1951"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b8452802n/manifest.json", 
+            "label": "Paris, BnF, MSS Mexicain 35-36"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b9007595p/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 717"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b9007611b/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 358"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b6000422n/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 623"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b53019392c/manifest.json", 
+            "label": "Paris, BnF,  MSS NAL 2334"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b84271946/manifest.json", 
+            "label": "Paris, BnF,  MSS Suppl\u00e9ment Persan 1639"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b84559233/manifest.json", 
+            "label": "Paris, BnF, MSS   Smith-Lesou\u00ebf 2"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b530134076/manifest.json", 
+            "label": "Paris, BnF,  MSS Mexicain 18-19"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b90573835/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 15381"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b90583481/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 12471"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b84581394/manifest.json", 
+            "label": "Paris, BnF, Biblioth\u00e8que de l'Arsenal  3693"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b55001425m/manifest.json", 
+            "label": "Paris, BnF,  MSS Latin 9388"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b6000409s/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 1424"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b8593586z/manifest.json", 
+            "label": "Paris, BnF,  MSS Suppl\u00e9ment grec 27"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b84324746/manifest.json", 
+            "label": "Paris, BnF,  MSS Latin 18005"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b55002483j/manifest.json", 
+            "label": "Paris, BnF, MSS coll\u00e8ge de Foix \u00e0 Toulouse  Latin 4939"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b9060423b/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 5658"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b90610505/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 12322"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b9061215d/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 13372"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b8432209x/manifest.json", 
+            "label": "Paris, BnF,  MSS Suppl\u00e9ment Persan 1428"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b8304429x/manifest.json", 
+            "label": "Kibune j\u00f4 (ge) \u304d\u3076\u306d \u4e0a(\u4e0b\uff09 / D\u00e9but de l'\u00e9poque d'Edo \u6c5f\u6238\u524d\u671f"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b83044362/manifest.json", 
+            "label": "Hitomotogiku \u3072\u3068\u3082\u3068\u83ca / Kanbun \u5bdb\u6587 (1661-1673)"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b8304432d/manifest.json", 
+            "label": "Paris, BnF,  MSS Smith-Lesou\u00ebf Japonais 3"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b90070207/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 274"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b9059949t/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 299"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b90599470/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 300"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b90095729/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 304"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b90582567/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 304"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b90582530/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 303"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b9058252k/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 303"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b9058254d/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 302"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b9060023z/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 308"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b8452197q/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 312"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b84557843/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 313"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b85144236/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 340"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b85275905/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 357"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b85275920/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 359"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b60007856/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 594"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b6000110d/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 776"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b8419243k/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 795"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b530841494/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 1302"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b90581757/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 2605"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b90581401/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 2616"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b9058139c/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 2620"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b9081005w/manifest.json", 
+            "label": "Paris, BnF,  MSS Latin 760 A (1)"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b90770027/manifest.json", 
+            "label": "Paris, BnF,  MSS Latin 6912 (1)"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b10500687r/manifest.json", 
+            "label": "Paris, BnF,  MSS Italien 74"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b8410888f/manifest.json", 
+            "label": "Paris, BnF,  MSS Persan 174"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b55002487b/manifest.json", 
+            "label": "Paris, BnF,  MSS Portugais 6"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b84322288/manifest.json", 
+            "label": "Paris, BnF,  MSS Suppl\u00e9ment Persan 1515"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b84322644/manifest.json", 
+            "label": "Paris, BnF,  MSS Suppl\u00e9ment Persan 1614"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b9007610x/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 360"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b9009478f/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 24394"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b8492079j/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 117"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b8458142m/manifest.json", 
+            "label": "Paris, BnF, Biblioth\u00e8que de l'Arsenal  Ms-5058 r\u00e9serve"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b9058119m/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 719"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b8304438w/manifest.json", 
+            "label": "Paris, BnF, MSS Smith-Lesou\u00ebf Japonais 177"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b8470455b/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 22297"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b8304419j/manifest.json", 
+            "label": "Tanabata \u4e03\u5915 / Kanbun \u5bdb\u6587(1661-1673)"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b8449688c/manifest.json", 
+            "label": "Paris, BnF,  MSS NAF 15941"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b9058903h/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 749"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b8427228j/manifest.json", 
+            "label": "Paris, BnF,  MSS Latin 10532"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b8451109t/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 9198"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b8449043q/manifest.json", 
+            "label": "Paris, BnF, MSS Fran\u00e7ais 1586"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b8406181q/manifest.json", 
+            "label": "Paris, BnF,  MSS Arabe 6528"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b84920784/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 119"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b6000032n/manifest.json", 
+            "label": "Paris, BnF,  MSS Latin 8085"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b84229915/manifest.json", 
+            "label": "Paris, BnF,  MSS Latin 9448"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b10515896h/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 12399"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b8304522c/manifest.json", 
+            "label": "Livre des Morts d'Ankhesenaset. Egyptien 84"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b8452823t/manifest.json", 
+            "label": "Paris, BnF, MSS   Mexicain 41-45"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b85945972/manifest.json", 
+            "label": "Paris, BnF,  MSS NAL 446"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b8304516n/manifest.json", 
+            "label": "Livre des Morts d'Ankhesenaset. Egyptien 78"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b83045068/manifest.json", 
+            "label": "Livre des Morts d'Ankhesenaset. Egyptien 68"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b8304507p/manifest.json", 
+            "label": "Livre des Morts d'Ankhesenaset. Egyptien 69"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b84539771/manifest.json", 
+            "label": "Paris, BnF,  MSS Arabe 3475"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b90096873/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 204"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b90594745/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 216"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b84260044/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 241"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b8426005j/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 242"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b8442920n/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 244"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b8449715t/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 246"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b9057274v/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 250"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b9058190x/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 259"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b9009690k/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 261"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b9009589k/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 271"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b9058115z/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 273"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b90095885/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 274"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b9009587r/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 274"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b9009695n/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 275"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b9009570g/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 278"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b9009569t/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 277"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b9009563b/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 279"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b9009561h/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 287"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b90095492/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 288"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b9009490w/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 293"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b105072112/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 297"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b9059948d/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 298"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b10507210m/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 296"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b9007616d/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 301"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b9058246v/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 326"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b52000962r/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 328"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b6000300q/manifest.json", 
+            "label": "Paris, BnF, MSS Fran\u00e7ais 378"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b90574252/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 388"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b9058137j/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 2618"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b84061505/manifest.json", 
+            "label": "Paris, BnF,  MSS Arabe 1192"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b84322110/manifest.json", 
+            "label": "Paris, BnF,  MSS Arabe 6859"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b8436396p/manifest.json", 
+            "label": "Paris, BnF,  MSS Espagnol 286"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b520009920/manifest.json", 
+            "label": "Paris, BnF, MSS   Ethiopien 21"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b52504823x/manifest.json", 
+            "label": "Paris, BnF, MSS   \u00c9thiopien 205"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b60005116/manifest.json", 
+            "label": "Paris, BnF, MSS Grec 2736"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b84324887/manifest.json", 
+            "label": "Paris, BnF, MSS Smith-Lesou\u00ebf Orient 221"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b520004762/manifest.json", 
+            "label": "Paris, BnF, MSS   Suppl\u00e9ment persan 1570"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b8432526g/manifest.json", 
+            "label": "Paris, BnF,  MSS Turc 140"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b7200010r/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 9561"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b8432226f/manifest.json", 
+            "label": "Paris, BnF,  MSS Arabe 5258"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b9058112q/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 13502"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b8304440z/manifest.json", 
+            "label": "Paris, BnF, MSS Smith-Lesou\u00ebf Japonais 177"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b10303832p/manifest.json", 
+            "label": "Paris, BnF,  MSS Latin 12744"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b8541003z/manifest.json", 
+            "label": "Paris, BnF,  MSS Latin 11575"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b9058965m/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 2818"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b8492077q/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 118"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b90609551/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 13508"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b84322073/manifest.json", 
+            "label": "Paris, BnF,  MSS Suppl\u00e9ment Persan 1361"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b8432208h/manifest.json", 
+            "label": "Paris, BnF,  MSS Suppl\u00e9ment Persan 1363"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b9065118j/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 8648"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b10511088k/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 257"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b60001142/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 12597"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b9059134m/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 784"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b84527986/manifest.json", 
+            "label": "Paris, BnF,  MSS Latin 10834"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b525020058/manifest.json", 
+            "label": "Paris, BnF, MSS Picardie 292"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b55008255h/manifest.json", 
+            "label": "Paris, BnF,  MSS M\u00e9langes de Colbert 378 (506)"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b83044169/manifest.json", 
+            "label": "Paris, BnF, MSS Japonais 1085"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b84582686/manifest.json", 
+            "label": "Paris, BnF, MSS   Mexicain 59-64"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b9009564r/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 279"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b525038815/manifest.json", 
+            "label": "Paris, BnF,  MSS Latin 3061"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b53019388n/manifest.json", 
+            "label": "Paris, BnF,  MSS Latin 6912 (2)"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b8426258c/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 143"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b9059189k/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 179"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b8426000g/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 183"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b84260029/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 185"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b9059168d/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 192"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b9009566k/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 194"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b9009557m/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 194"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b9009528w/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 208"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b9058921f/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 218"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b9059473r/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 220"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b9059472b/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 219"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b8529704q/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 224"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b9007364f/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 230"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b9058146h/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 233"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b9007324x/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 236"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b8458435h/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 239"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b8452200r/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 247"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b84497204/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 256"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b9058248p/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 321"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b9060022j/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 331"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b8490152m/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 373"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b8451604g/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 2608"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b90589876/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 2803"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b9080996h/manifest.json", 
+            "label": "Paris, BnF,  MSS Latin 462"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b55001423q/manifest.json", 
+            "label": "Paris, BnF,  MSS Latin 1152"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b60000332/manifest.json", 
+            "label": "Paris, BnF,  MSS Latin 9428"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b9066810z/manifest.json", 
+            "label": "Paris, BnF,  MSS Latin 11855"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b90726710/manifest.json", 
+            "label": "Paris, BnF,  MSS Latin 14241"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b9072657q/manifest.json", 
+            "label": "Paris, BnF,  MSS Latin 14235"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b9072555j/manifest.json", 
+            "label": "Paris, BnF,  MSS Latin 14236"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b9080851k/manifest.json", 
+            "label": "Paris, BnF,  MSS Latin 15211"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b84526716/manifest.json", 
+            "label": "Paris, BnF,  MSS Latin 15675"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b90808661/manifest.json", 
+            "label": "Paris, BnF,  MSS Latin 16754"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b9072576q/manifest.json", 
+            "label": "Paris, BnF,  MSS Latin 16722"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b550059715/manifest.json", 
+            "label": "Paris, BnF,  MSS Latin 17325"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b90672121/manifest.json", 
+            "label": "Paris, BnF,  MSS Latin 18275"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b84061557/manifest.json", 
+            "label": "Paris, BnF,  MSS Arabe 2214"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b8422960m/manifest.json", 
+            "label": "Paris, BnF,  MSS Arabe 2964"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b84229611/manifest.json", 
+            "label": "Paris, BnF,  MSS Arabe 3465"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b84539756/manifest.json", 
+            "label": "Paris, BnF,  MSS Arabe 5881"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b84322236/manifest.json", 
+            "label": "Paris, BnF,  MSS Arabe 6675"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b52504901k/manifest.json", 
+            "label": "Paris, BnF, MSS   Ethiopien d'Abbadie 114"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b84108960/manifest.json", 
+            "label": "Paris, BnF,  MSS Persan 129"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b52503120k/manifest.json", 
+            "label": "Paris, BnF,  MSS Persan 169"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b6001244v/manifest.json", 
+            "label": "Paris, BnF,  MSS Persan 243"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b60012547/manifest.json", 
+            "label": "Paris, BnF,  MSS Smith-Lesou\u00ebf 231"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b6000439x/manifest.json", 
+            "label": "Paris, BnF,  MSS Smith-Lesou\u00ebf Orient 243"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b52504031d/manifest.json", 
+            "label": "Paris, BnF,  MSS Smith-Lesou\u00ebf 245"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b6000724h/manifest.json", 
+            "label": "Paris, BnF,  MSS Suppl\u00e9ment Persan 1340"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b84108871/manifest.json", 
+            "label": "Paris, BnF,  MSS Suppl\u00e9ment Persan 1514"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b8432217g/manifest.json", 
+            "label": "Paris, BnF,  MSS Suppl\u00e9ment Persan 1572"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b10511111x/manifest.json", 
+            "label": "Paris, BnF,  MSS Suppl\u00e9ment turc 190 pi\u00e8ce"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b10511086p/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 5658"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b9009474s/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 14964"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b9059826g/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 1039"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b105111076/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 1600"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b84559448/manifest.json", 
+            "label": "Paris, BnF, MSS   Mexicain 46-58"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b6000574q/manifest.json", 
+            "label": "Paris, BnF, MSS Japonais 5345"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b60004269/manifest.json", 
+            "label": "Paris, BnF, MSS Smith-Leso\u00fcef 8"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b90581861/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 748"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b84259980/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 412"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b550024823/manifest.json", 
+            "label": "Paris, BnF,  MSS Latin 18249"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b90596291/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 359"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b8422967h/manifest.json", 
+            "label": "Paris, BnF,  MSS Arabe 6094"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b105090110/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 2819"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b85388093/manifest.json", 
+            "label": "Paris, BnF, MSS   \u00c9thiopien 32Saint-Germain 18"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b8419219x/manifest.json", 
+            "label": "Paris, BnF,  MSS Arabe 274"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b84522067/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 2695"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b6000519h/manifest.json", 
+            "label": "Paris, BnF,  MSS Persan 364"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b520009475/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 1630"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b90614012/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 14682"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b90615193/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 10420"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b90619041/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 20330"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b53023942t/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 14357"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b84496928/manifest.json", 
+            "label": "Paris, BnF,  MSS NAF 15942"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b83044184/manifest.json", 
+            "label": "Tanabata \u4e03\u5915 / Kanbun \u5bdb\u6587(1661-1673)"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b8452765t/manifest.json", 
+            "label": "Paris, BnF,  MSS Latin 152"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b10303684w/manifest.json", 
+            "label": "Paris, BnF,  MSS Latin 8913"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b84546905/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 13091"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b9009543k/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 285"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b85624763/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 64"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b90590845/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 97"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b85275883/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 112 (2)"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b9009618v/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 131"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b9059021n/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 134"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b9059700w/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 135"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b90589090/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 138"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b90607115/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 140"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b9009487d/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 142"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b8426257z/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 145"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b8454675g/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 146"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b550024840/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 150"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b90593720/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 156"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b90095017/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 171"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b8449717n/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 172"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b8452192n/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 173"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b8449719g/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 174"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b90591907/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 177"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b90595110/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 188"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b60007782/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 225"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b90595006/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 257"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b9059163b/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 269"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b84584343/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 343"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b84702013/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 376"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b90596276/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 377"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b9060640j/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 385"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b9058121p/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 712"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b9058866p/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 2626"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b90588606/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 2635"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b90073898/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 2653"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b9007390x/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 2651"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b90593275/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 2662"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b9007428x/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 2691"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b9058962c/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 2827"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b9059240p/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 4769"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b90608511/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 9002"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b8451110g/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 11610"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b8452199j/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 12201"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b525033083/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 12476"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b90609462/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 12572"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b9064047m/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 16993"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b8452762k/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 2091"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b90629725/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 22533"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b6000793r/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 22546"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b9063494b/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 22553"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b9063681d/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 25407"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b85301526/manifest.json", 
+            "label": "Paris, BnF,  MSS Latin 5(1)"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b85388130/manifest.json", 
+            "label": "Paris, BnF,  MSS Latin 6 (3)"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b9068092p/manifest.json", 
+            "label": "Paris, BnF,  MSS Latin 12(3)"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b90680918/manifest.json", 
+            "label": "Paris, BnF,  MSS Latin 12(2)"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b90680206/manifest.json", 
+            "label": "Paris, BnF,  MSS Latin 12(1)"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b9077835c/manifest.json", 
+            "label": "Paris, BnF,  MSS Latin 37(1)"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b9077806n/manifest.json", 
+            "label": "Paris, BnF,  MSS Latin 365"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b90810017/manifest.json", 
+            "label": "Paris, BnF,  MSS Latin 430"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b9080998b/manifest.json", 
+            "label": "Paris, BnF,  MSS Latin 448"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b90809953/manifest.json", 
+            "label": "Paris, BnF,  MSS Latin 463"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b90724326/manifest.json", 
+            "label": "Paris, BnF,  MSS Latin 525(1)"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b9081023t/manifest.json", 
+            "label": "Paris, BnF,  MSS Latin 661"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b90810247/manifest.json", 
+            "label": "Paris, BnF,  MSS Latin 659"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b90810210/manifest.json", 
+            "label": "Paris, BnF,  MSS Latin 663"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b90765210/manifest.json", 
+            "label": "Paris, BnF,  MSS Latin 688"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b90810032/manifest.json", 
+            "label": "Paris, BnF,  MSS Latin 760 A (3)"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b520004510/manifest.json", 
+            "label": "Paris, BnF,  MSS Latin 919"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b9066906d/manifest.json", 
+            "label": "Paris, BnF,  MSS Latin 960"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b90810158/manifest.json", 
+            "label": "Paris, BnF,  MSS Latin 1016(1)"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b8447767x/manifest.json", 
+            "label": "Paris, BnF,  MSS Latin 1429"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b9067807s/manifest.json", 
+            "label": "Paris, BnF,  MSS Latin 2120(1-2)"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b90659708/manifest.json", 
+            "label": "Paris, BnF,  MSS Latin 3114(2)"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b9066031c/manifest.json", 
+            "label": "Paris, BnF,  MSS Latin 5286"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b8541007m/manifest.json", 
+            "label": "Paris, BnF,  MSS Latin 14267"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b84322340/manifest.json", 
+            "label": "Paris, BnF,  MSS Suppl\u00e9ment Persan 1309"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b84149903/manifest.json", 
+            "label": "Paris, BnF,  MSS Suppl\u00e9ment turc 1055"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b9061049h/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 12319"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b9061254h/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 17229"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b9059217f/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 770"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b105154602/manifest.json", 
+            "label": "Paris, BnF,  MSS NAF 1098"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b83057921/manifest.json", 
+            "label": "Paris, BnF, MSS Smith-Lesou\u00ebf Japonais K. 44"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b8432233k/manifest.json", 
+            "label": "Paris, BnF,  MSS Suppl\u00e9ment Persan 1455"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b8432909b/manifest.json", 
+            "label": "Paris, BnF,  MSS Suppl\u00e9ment Persan 769"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b83045973/manifest.json", 
+            "label": "Papyrus mythologique de Tanytamon. Egyptien 171"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b8304598h/manifest.json", 
+            "label": "Papyrus mythologique de Tanytamon. Egyptien 172"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b6000905v/manifest.json", 
+            "label": "Paris, BnF,  MSS Latin 4915"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b9058179w/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 68"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b9009642h/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 76"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b9059122d/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 100"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b90598289/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 103"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b8527589h/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 112 (3)"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b8527587p/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 112 (1)"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b6000092x/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 115F. 355-576"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b60000903/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 113F. 1-205"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b9009656j/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 125"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b9009539p/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 130"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b9009502n/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 170"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b9009580v/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 180"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b9009555s/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 251"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b9058857q/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 266"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b9058116c/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 267"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b9058241s/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 329"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b90589416/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 336"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b6000616m/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 350"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b9060020q/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 351"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b8527593d/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 360"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b8550858n/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 363"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b60003014/manifest.json", 
+            "label": "Paris, BnF, MSS Fran\u00e7ais 380"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b9058205x/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 404"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b9058206b/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 405"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b9058207r/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 406"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b90591262/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 424"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b84521932/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 598"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b9009638m/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 599"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b60007552/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 606"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b55006072j/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 619"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b90589023/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 750"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b9058126r/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 779"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b90606268/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 786"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b9007155s/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 789"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b90096502/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 790"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b9009482b/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 871"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b90595807/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 874"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b9059035p/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 1378"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b9059705z/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 1379"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b9059706c/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 1377"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b9059692s/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 1669"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b9058929r/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 2173"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b9058173d/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 2613"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b9058986s/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 2754"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b9059233j/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 9687"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b8452195w/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 15213"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b84478804/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 2092"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b8470039v/manifest.json", 
+            "label": "Paris, BnF,  MSS Latin 4(1)"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b9076455f/manifest.json", 
+            "label": "Paris, BnF,  MSS Latin 156"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b84260541/manifest.json", 
+            "label": "Paris, BnF,  MSS Latin 184"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b90680436/manifest.json", 
+            "label": "Paris, BnF,  MSS Latin 665"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b9081004g/manifest.json", 
+            "label": "Paris, BnF,  MSS Latin 760 A (2)"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b8529698f/manifest.json", 
+            "label": "Paris, BnF,  MSS Latin 774"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b90766910/manifest.json", 
+            "label": "Paris, BnF,  MSS Latin 1088 (2)"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b84386184/manifest.json", 
+            "label": "Paris, BnF,  MSS Latin 2508"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b9065949v/manifest.json", 
+            "label": "Paris, BnF,  MSS Latin 4126"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b9066969x/manifest.json", 
+            "label": "Paris, BnF,  MSS Latin 4922"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b9066022d/manifest.json", 
+            "label": "Paris, BnF,  MSS Latin 6088"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b90668366/manifest.json", 
+            "label": "Paris, BnF,  MSS Latin 11534"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b85410066/manifest.json", 
+            "label": "Paris, BnF,  MSS Latin 14266"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b9072681c/manifest.json", 
+            "label": "Paris, BnF,  MSS Latin 14397"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b9067868g/manifest.json", 
+            "label": "Paris, BnF,  MSS Latin 14410"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b8514386c/manifest.json", 
+            "label": "Paris, BnF,  MSS Latin 16743"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b8432206p/manifest.json", 
+            "label": "Paris, BnF,  MSS Persan 237"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b8410892b/manifest.json", 
+            "label": "Paris, BnF,  MSS Persan 376"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b8410893r/manifest.json", 
+            "label": "Paris, BnF,  MSS Persan 54"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b8427190j/manifest.json", 
+            "label": "Paris, BnF,  MSS Smith-Lesou\u00ebf 207"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b8432902f/manifest.json", 
+            "label": "Paris, BnF, MSS Smith-Lesou\u00ebf Orient 221"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b84149955/manifest.json", 
+            "label": "Paris, BnF,  MSS Suppl\u00e9ment Persan 205"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b84229930/manifest.json", 
+            "label": "Paris, BnF,  MSS Suppl\u00e9ment Persan 206"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b7200028f/manifest.json", 
+            "label": "Paris, BnF, MSS Suppl\u00e9ment persan 355"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b84229982/manifest.json", 
+            "label": "Paris, BnF,  MSS Suppl\u00e9ment Persan 552"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b8432243z/manifest.json", 
+            "label": "Paris, BnF,  MSS Suppl\u00e9ment Persan 641"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b84329011/manifest.json", 
+            "label": "Paris, BnF,  MSS Suppl\u00e9ment Persan 766"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b84271694/manifest.json", 
+            "label": "Paris, BnF,  MSS Suppl\u00e9ment Persan 1150"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b84150123/manifest.json", 
+            "label": "Paris, BnF,  MSS Suppl\u00e9ment turc 521"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b8414991h/manifest.json", 
+            "label": "Paris, BnF,  MSS Suppl\u00e9ment turc 991"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b6000425w/manifest.json", 
+            "label": "Paris, BnF,  MSS NAF 886"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b84557895/manifest.json", 
+            "label": "Paris, BnF,  MSS NAF 4516"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b6000417b/manifest.json", 
+            "label": "Paris, BnF,  MSS NAF 6579"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b8458267s/manifest.json", 
+            "label": "Paris, BnF, MSS   Mexicain 385"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b55002479t/manifest.json", 
+            "label": "Paris, BnF,  MSS italien 1710"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b8455934w/manifest.json", 
+            "label": "Paris, BnF,  MSS Latin 4935"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b9009473c/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 24394"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b8454687p/manifest.json", 
+            "label": "Paris, BnF,  MSS Latin 4802"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b90581208/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 716"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b8449690f/manifest.json", 
+            "label": "Paris, BnF,  MSS NAF 15939"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b105073318/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 1877"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b8432218w/manifest.json", 
+            "label": "Paris, BnF,  MSS Suppl\u00e9ment Persan 1554"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b84322199/manifest.json", 
+            "label": "Paris, BnF,  MSS Suppl\u00e9ment Persan 1958"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b105158505/manifest.json", 
+            "label": "Paris, BnF,  MSS Suppl\u00e9ment turc 374"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b52505046d/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 616 (ancienne reliure)"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b90604344/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 5715"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b90605013/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 5388"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b90619931/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 19162"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b84272615/manifest.json", 
+            "label": "Paris, BnF,  MSS Suppl\u00e9ment Persan 1964"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b90633265/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 19166"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b9058806d/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 120"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b8432212d/manifest.json", 
+            "label": "Paris, BnF,  MSS Suppl\u00e9ment Persan 1967"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b8449689s/manifest.json", 
+            "label": "Paris, BnF,  MSS NAF 15943"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b520004567/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 782"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b6000415h/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 16998"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b8447187m/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 696"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b84525424/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 793"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b8449708p/manifest.json", 
+            "label": "Paris, BnF,  MSS NAF 15944"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b10506542j/manifest.json", 
+            "label": "Paris, BnF,  MSS Latin 12302"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b8447062f/manifest.json", 
+            "label": "Paris, BnF,  MSS Latin 2231 (1)"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b8562410b/manifest.json", 
+            "label": "Paris, BnF, MSS Latin 17767"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b83044347/manifest.json", 
+            "label": "Paris, BnF,  MSS "
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b85855973/manifest.json", 
+            "label": "Paris, BnF,  MSS Latin 6601"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b8304437g/manifest.json", 
+            "label": "Hitomotogiku \u3072\u3068\u3082\u3068\u83ca / Kanbun \u5bdb\u6587 (1661-1673)"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b8304486z/manifest.json", 
+            "label": "Livre des Morts de Soutym\u00e8s. Egyptien 43"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b8304599x/manifest.json", 
+            "label": "Papyrus mythologique de Tanytamon. Egyptien 173"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b8304488s/manifest.json", 
+            "label": "Livre des Morts de Soutym\u00e8s. Egyptien 45"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b8304513d/manifest.json", 
+            "label": "Livre des Morts d'Ankhesenaset. Egyptien 75"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b8304483q/manifest.json", 
+            "label": "Livre des Morts de Soutym\u00e8s. Egyptien 40"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b8304519w/manifest.json", 
+            "label": "Livre des Morts d'Ankhesenaset. Egyptien 81"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b90070118/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 11"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b9058204h/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 41"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b9009640p/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 45"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b9009635c/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 47"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b9059378g/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 51"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b9059379w/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 51"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b9063505p/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 50"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b9059535d/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 50"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b90096324/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 52"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b9007599b/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 53"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b6000093b/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 116F. 577-735"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b8425999d/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 245"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b90582211/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 391"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b84472995/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 2813"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b9059221b/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 60"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b9009631q/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 63"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b9059171w/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 85"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b9009643x/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 80"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b90591566/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 82"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b9059308t/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 123"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b9059685n/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 124"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b90096554/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 126"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b90096235/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 126"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b9009617f/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 132"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b9058915q/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 136"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b90588940/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 137"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b9009675w/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 163"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b9059191n/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 178"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b90599529/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 181"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b90095796/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 182"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b9059046g/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 186"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b90590259/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 187"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b9058854g/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 190"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b9009520k/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 226"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b53084141j/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 227"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b9059437w/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 229"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b9058150d/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 232"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b9009511m/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 240"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b9009698w/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 249"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b9009697g/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 248"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b9009554c/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 251"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b9058869x/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 254"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b9058191b/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 255"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b9058188v/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 260"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b90096910/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 262"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b8451118s/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 263"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b9058859j/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 265"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b90096784/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 268"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b9009599z/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 270"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b8451116z/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 282"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b90095603/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 289"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b9058255t/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 302"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b52504906t/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 311"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b8451115j/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 314"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b9058245f/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 323"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b8514424m/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 338"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b85275957/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 362"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b52503108b/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 755"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b90590682/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 1607"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b85303539/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 1738"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b9007402p/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 2652"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b9059480w/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 2658"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b90073861/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 2660"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b60007003/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 2664"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b9059575x/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 2675"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b90591603/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 2694"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b9059510k/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 2696"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b9059001w/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 2799"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b85295204/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 2824"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b84516158/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 2848"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b72000271/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 5594"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b55005969b/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 5715"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b9060744j/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 5939"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b90632099/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 9083"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b9063084k/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 9738"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b60002167/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 12595"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b9009513f/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 16997"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b9009480h/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 20125"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b9062971r/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 22534"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b9077834z/manifest.json", 
+            "label": "Paris, BnF,  MSS Latin 37(3)"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b90810336/manifest.json", 
+            "label": "Paris, BnF,  MSS Latin 337"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b60002575/manifest.json", 
+            "label": "Paris, BnF, MSS Latin 512"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b9081025n/manifest.json", 
+            "label": "Paris, BnF,  MSS Latin 650"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b9081022d/manifest.json", 
+            "label": "Paris, BnF,  MSS Latin 662"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b9066592s/manifest.json", 
+            "label": "Paris, BnF,  MSS Latin 817"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b550024897/manifest.json", 
+            "label": "Paris, BnF,  MSS Portugais 45"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b85302158/manifest.json", 
+            "label": "Paris, BnF,  MSS NAF 19736"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b60009476/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 2164"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b9059056v/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 2093"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b105101786/manifest.json", 
+            "label": "Paris, BnF, MSS   Mexicain 54 (A)"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b84061698/manifest.json", 
+            "label": "Paris, BnF,  MSS Arabe 2488"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b7100310j/manifest.json", 
+            "label": "Paris, BnF, Biblioth\u00e8que de l'Arsenal  5024"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b84322147/manifest.json", 
+            "label": "Paris, BnF,  MSS Suppl\u00e9ment Persan 2082"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b90636125/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 24224"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b8455786x/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 9749"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b9058123h/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 782"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b9059064d/manifest.json", 
+            "label": "Paris, BnF, MSS Fran\u00e7ais 1586"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b55000580w/manifest.json", 
+            "label": "Paris, BnF,  MSS NAF 20403"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b6000569d/manifest.json", 
+            "label": "Paris, BnF,  MSS NAL 1424"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b8449693p/manifest.json", 
+            "label": "Paris, BnF,  MSS NAF 15940"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b8452805w/manifest.json", 
+            "label": "Paris, BnF,  MSS NAL 2130"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b105065665/manifest.json", 
+            "label": "Paris, BnF,  MSS Latin 10434"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b6000542r/manifest.json", 
+            "label": "Paris, BnF,  MSS Latin 9661"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b8447065p/manifest.json", 
+            "label": "Paris, BnF,  MSS Latin 2231 (2)"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b6001299t/manifest.json", 
+            "label": "Paris, BnF,  MSS Arabe 4670"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b7100012b/manifest.json", 
+            "label": "Paris, BnF, Biblioth\u00e8que de l'Arsenal  Ms-5229 r\u00e9serve"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b71000160/manifest.json", 
+            "label": "Paris, BnF, Biblioth\u00e8que de l'Arsenal  Ms-4976"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b7100723j/manifest.json", 
+            "label": "Paris, BnF, Biblioth\u00e8que de l'Arsenal  Ms-1186 r\u00e9serve"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b83044310/manifest.json", 
+            "label": "Paris, BnF,  MSS Smith-Lesou\u00ebf Japonais 3"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b84061520/manifest.json", 
+            "label": "Paris, BnF,  MSS Arabe 2491"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b8406153d/manifest.json", 
+            "label": "Paris, BnF,  MSS Arabe 2492"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b84271768/manifest.json", 
+            "label": "Paris, BnF,  MSS Suppl\u00e9ment Persan 1313"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b8427260r/manifest.json", 
+            "label": "Paris, BnF,  MSS Suppl\u00e9ment Persan 1476"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b8432222s/manifest.json", 
+            "label": "Paris, BnF,  MSS Suppl\u00e9ment Persan 1425"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b8432230b/manifest.json", 
+            "label": "Paris, BnF,  MSS Suppl\u00e9ment Persan 1965"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b90644759/manifest.json", 
+            "label": "Paris, BnF,  MSS H\u00e9breu 161"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b85722402/manifest.json", 
+            "label": "Paris, BnF,  MSS Latin 2017"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b85722439/manifest.json", 
+            "label": "Paris, BnF,  MSS Latin 2832"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b8452640n/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 1023"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b60005220/manifest.json", 
+            "label": "Paris, BnF,  MSS Grec 2737"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b8419223t/manifest.json", 
+            "label": "Paris, BnF,  MSS Arabe 350"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b8415221r/manifest.json", 
+            "label": "Paris, BnF,  MSS Arabe 350"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b9007290k/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 1"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b90069483/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 2"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b9007621q/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 4"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b90069342/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 3"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b9007608v/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 5"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b90076098/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 5"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b9007605m/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 6"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b90076046/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 6"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b9007603s/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 7"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b9007602c/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 7"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b9006818m/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 9"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b9006823x/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 10"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b9006829d/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 16"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b90068354/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 14"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b9007010v/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 12"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b90068302/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 13"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b9006836j/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 15"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b9007196q/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 17"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b90095959/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 20"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b9009594w/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 20"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b90095818/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 21"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b90587989/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 22"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b90594211/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 24"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b9059420m/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 23"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b9009458p/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 25"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b90094578/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 25"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b9009596q/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 26"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b9058796g/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 28"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b9058797w/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 27"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b9059010v/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 30"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b9009481x/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 32"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b9009504g/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 31"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b9009455f/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 32"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b9058961z/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 33"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b90589572/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 34"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b9059443m/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 38"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b90594441/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 38"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b90591959/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 39"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b9009652w/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 40"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b9009649d/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 44"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b90096480/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 44"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b90096413/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 45"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b90096391/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 46"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b9009634z/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 49"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b9009636s/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 48"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b9007598x/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 54"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b9059132s/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 56"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b9059131c/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 55"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b90588584/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 264"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b8447879g/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 295"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b6000109r/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 344"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b90072324/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 617"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b90591581/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 84"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b9059157m/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 83"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b6000108b/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 95"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b52503846r/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 99"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b9059123t/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 101"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b90591425/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 105"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b90067848/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 111"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b90592161/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 153"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b8490150s/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 155"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b8449721j/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 157"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b9058843p/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 158"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b8449691v/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 159"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b9059673f/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 168"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b90094934/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 169"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b90095032/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 170"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b9058133w/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 189"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b9059509x/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 191"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b9059921r/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 210"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b90581705/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 228"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b53084169z/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 234"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b9007632h/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 235"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b9009598j/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 272"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b9009562x/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 286"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b90599455/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 309"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b90582478/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 317"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b9058940s/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 335"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b8514422s/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 356"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b8527594t/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 361"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b6000786m/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 364"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b90589342/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 375"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b9058220m/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 381"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b9007657b/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 398"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b105097608/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 760"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b9059145d/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 1174"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b9007301x/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 1291"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b85508592/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 1297"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b84490444/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 1584"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b90581898/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 2597"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b9058187f/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 2604"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b9058174t/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 2606"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b9059496r/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 2615"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b90581364/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 2623"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b9007413g/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 2629"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b9006994b/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 2630"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b9058863f/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 2631"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b9059493h/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 2642"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b8438606x/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 2645"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b8438607b/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 2646"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b84386043/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 2643"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b90590044/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 2789"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b52000858n/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 2810"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b9059504v/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 4972"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b9081030z/manifest.json", 
+            "label": "Paris, BnF,  MSS Latin 375"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b6000434v/manifest.json", 
+            "label": "Paris, BnF,  MSS Latin 511"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b9067806c/manifest.json", 
+            "label": "Paris, BnF,  MSS Latin 2120(1-2)"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b9068290j/manifest.json", 
+            "label": "Paris, BnF,  MSS Latin 7330"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b8406171b/manifest.json", 
+            "label": "Paris, BnF,  MSS Suppl\u00e9ment persan 491"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b525039519/manifest.json", 
+            "label": "Paris, BnF,  MSS Smith-Lesou\u00ebf japonais K 13 (1) : \u4e2d\u5dfb"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b53054668g/manifest.json", 
+            "label": "Paris, BnF, MSS Japonais 5346"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b8304421m/manifest.json", 
+            "label": "Paris, BnF, MSS Japonais 4168"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b90631430/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 22933"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b8432210k/manifest.json", 
+            "label": "Paris, BnF,  MSS Suppl\u00e9ment Persan 1416"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b10510337v/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 748"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b525038493/manifest.json", 
+            "label": "Paris, BnF,  MSS Latin 17034"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b8432907h/manifest.json", 
+            "label": "Paris, BnF,  MSS Suppl\u00e9ment Persan 802"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b8438605h/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 2644"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b9059491p/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 2648"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b9006992h/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 2649"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b9059482q/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 2654"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b90594797/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 2661"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b60005702/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 2663"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b90595733/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 2685"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b8455785h/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 5707"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b90604270/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 6440"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b8530342h/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 8266"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b10506571b/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 9081"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b6000795k/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 9221"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b90620366/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 20124"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b9059286p/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 22531"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b90592858/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 22532"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b85144325/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 22540"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b8449039t/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 22547"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b60005361/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 24399"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b9009548n/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 284"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b8455903b/manifest.json", 
+            "label": "Paris, BnF,  MSS Latin 1"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b84546957/manifest.json", 
+            "label": "Paris, BnF,  MSS Latin 4(2)"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b8530347k/manifest.json", 
+            "label": "Paris, BnF,  MSS Latin 5(2)"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b8538801s/manifest.json", 
+            "label": "Paris, BnF,  MSS Latin 6 (2)"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b8550862j/manifest.json", 
+            "label": "Paris, BnF,  MSS Latin 8 (2)"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b85410155/manifest.json", 
+            "label": "Paris, BnF,  MSS Latin 8 (1)"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b8455938j/manifest.json", 
+            "label": "Paris, BnF,  MSS Latin 11"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b6000540x/manifest.json", 
+            "label": "Paris, BnF,  MSS Latin 18"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b9068443k/manifest.json", 
+            "label": "Paris, BnF,  MSS Latin 23"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b90778005/manifest.json", 
+            "label": "Paris, BnF,  MSS Latin 24"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b90778020/manifest.json", 
+            "label": "Paris, BnF,  MSS Latin 32"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b8455927r/manifest.json", 
+            "label": "Paris, BnF,  MSS Latin 40"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b9077804t/manifest.json", 
+            "label": "Paris, BnF,  MSS Latin 41"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b9066104t/manifest.json", 
+            "label": "Paris, BnF,  MSS Latin 42"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b90661643/manifest.json", 
+            "label": "Paris, BnF,  MSS Latin 42"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b90764541/manifest.json", 
+            "label": "Paris, BnF,  MSS Latin 59"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b9068085j/manifest.json", 
+            "label": "Paris, BnF,  MSS Latin 203"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b8455787b/manifest.json", 
+            "label": "Paris, BnF,  MSS Latin 248 (2)"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b8455904r/manifest.json", 
+            "label": "Paris, BnF,  MSS Latin 248 (1)"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b10507215v/manifest.json", 
+            "label": "Paris, BnF,  MSS Latin 461"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b8470209d/manifest.json", 
+            "label": "Paris, BnF,  MSS Latin 757"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b8452656h/manifest.json", 
+            "label": "Paris, BnF,  MSS Latin 771"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b8529517n/manifest.json", 
+            "label": "Paris, BnF,  MSS Latin 864(1)"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b8529510r/manifest.json", 
+            "label": "Paris, BnF,  MSS Latin 864(2)"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b84525491/manifest.json", 
+            "label": "Paris, BnF,  MSS Latin 1052"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b8470212w/manifest.json", 
+            "label": "Paris, BnF,  MSS Latin 1196"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b8454696n/manifest.json", 
+            "label": "Paris, BnF,  MSS Latin 5045 (1)"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b52000584z/manifest.json", 
+            "label": "Paris, BnF,  MSS Latin 5045 (2)"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b8447072t/manifest.json", 
+            "label": "Paris, BnF,  MSS latin 6793 2"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b8447060m/manifest.json", 
+            "label": "Paris, BnF,  MSS latin 6793 1"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b530193893/manifest.json", 
+            "label": "Paris, BnF,  MSS Latin 6912 (4)"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b53019393t/manifest.json", 
+            "label": "Paris, BnF,  MSS Latin 6912 (3)"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b53019390g/manifest.json", 
+            "label": "Paris, BnF,  MSS Latin 6912 (5)"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b84522030/manifest.json", 
+            "label": "Paris, BnF,  MSS Latin 6912 (1)"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b90684262/manifest.json", 
+            "label": "Paris, BnF,  MSS Latin 7258"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b84525513/manifest.json", 
+            "label": "Paris, BnF,  MSS Latin 7899"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b84470930/manifest.json", 
+            "label": "Paris, BnF,  MSS Latin 7774 1"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b8447095t/manifest.json", 
+            "label": "Paris, BnF,  MSS Latin 7774 2"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b8447290f/manifest.json", 
+            "label": "Paris, BnF,  MSS Latin 8533 1"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b8447287z/manifest.json", 
+            "label": "Paris, BnF,  MSS Latin 8533 2"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b8452550p/manifest.json", 
+            "label": "Paris, BnF,  MSS Latin 8850"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b6000541b/manifest.json", 
+            "label": "Paris, BnF,  MSS Latin 8865"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b8530222d/manifest.json", 
+            "label": "Paris, BnF,  MSS Latin 9438"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b52500984v/manifest.json", 
+            "label": "Paris, BnF,  MSS Latin 9474"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b8427237h/manifest.json", 
+            "label": "Paris, BnF,  MSS Latin 10491"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b8451634m/manifest.json", 
+            "label": "Paris, BnF,  MSS Latin 10483"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b8447295h/manifest.json", 
+            "label": "Paris, BnF,  MSS Latin 10484"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b8447877n/manifest.json", 
+            "label": "Paris, BnF,  MSS Latin 10525"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b90776756/manifest.json", 
+            "label": "Paris, BnF,  MSS Latin 11538"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b105097447/manifest.json", 
+            "label": "Paris, BnF,  MSS Latin 11935"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b85100225/manifest.json", 
+            "label": "Paris, BnF,  MSS Latin 16744"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b85144288/manifest.json", 
+            "label": "Paris, BnF,  MSS Latin 16746"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b8510021r/manifest.json", 
+            "label": "Paris, BnF,  MSS Latin 16745"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b90766235/manifest.json", 
+            "label": "Paris, BnF,  MSS Latin 17198"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b8449684q/manifest.json", 
+            "label": "Paris, BnF,  MSS Latin 18014"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b8406161z/manifest.json", 
+            "label": "Paris, BnF,  MSS Arabe 1489"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b8406160j/manifest.json", 
+            "label": "Paris, BnF,  MSS Arabe 2178"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b52000446t/manifest.json", 
+            "label": "Paris, BnF,  MSS Arabe 2221"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b8406151k/manifest.json", 
+            "label": "Paris, BnF,  MSS Arabe 2489"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b8422965p/manifest.json", 
+            "label": "Paris, BnF,  MSS Arabe 5847"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b84061483/manifest.json", 
+            "label": "Paris, BnF,  MSS Arabe 6983"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b52502689n/manifest.json", 
+            "label": "Paris, BnF,  MSS Arm\u00e9nien 291"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b9002759z/manifest.json", 
+            "label": "Paris, BnF,  MSS H\u00e9breu 6"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b9002997b/manifest.json", 
+            "label": "Paris, BnF,  MSS H\u00e9breu 7"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b9002996x/manifest.json", 
+            "label": "Paris, BnF,  MSS H\u00e9breu 15"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b9002995h/manifest.json", 
+            "label": "Paris, BnF,  MSS H\u00e9breu 30"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b60002664/manifest.json", 
+            "label": "Paris, BnF,  MSS H\u00e9breu 31"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b8455942f/manifest.json", 
+            "label": "Paris, BnF,  MSS H\u00e9breu 48"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b8455939z/manifest.json", 
+            "label": "Paris, BnF,  MSS H\u00e9breu 49"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b8470045k/manifest.json", 
+            "label": "Paris, BnF,  MSS H\u00e9breu 154"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b84700445/manifest.json", 
+            "label": "Paris, BnF,  MSS H\u00e9breu 161"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b84268111/manifest.json", 
+            "label": "Paris, BnF,  MSS italien 63"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b84511055/manifest.json", 
+            "label": "Paris, BnF,  MSS N\u00e9erlandais 1"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b52000996s/manifest.json", 
+            "label": "Paris, BnF,  MSS Rothschild 2529 (16  b )Cote topographique : VI(bas)"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b8427191z/manifest.json", 
+            "label": "Paris, BnF,  MSS Smith-Lesou\u00ebf 222"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b6000369q/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 25526"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b90631148/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 24383"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b8304485j/manifest.json", 
+            "label": "Livre des Morts de Soutym\u00e8s. Egyptien 42"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b8304502m/manifest.json", 
+            "label": "Livre des Morts d'Ankhesenaset. Egyptien 64"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b8422994d/manifest.json", 
+            "label": "Paris, BnF,  MSS Suppl\u00e9ment Persan 332"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b8422995t/manifest.json", 
+            "label": "Paris, BnF,  MSS Suppl\u00e9ment Persan 489"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b84229967/manifest.json", 
+            "label": "Paris, BnF,  MSS Suppl\u00e9ment Persan 490"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b8422997n/manifest.json", 
+            "label": "Paris, BnF,  MSS Suppl\u00e9ment Persan 493"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b8432263q/manifest.json", 
+            "label": "Paris, BnF,  MSS Suppl\u00e9ment Persan 494"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b84328980/manifest.json", 
+            "label": "Paris, BnF,  MSS Suppl\u00e9ment Persan 913"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b8432911d/manifest.json", 
+            "label": "Paris, BnF,  MSS Suppl\u00e9ment Persan 1029"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b8432900m/manifest.json", 
+            "label": "Paris, BnF,  MSS Suppl\u00e9ment Persan 1030"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b84329100/manifest.json", 
+            "label": "Paris, BnF,  MSS Suppl\u00e9ment Persan 1112"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b8427170s/manifest.json", 
+            "label": "Paris, BnF,  MSS Suppl\u00e9ment Persan 1113"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b8427188g/manifest.json", 
+            "label": "Paris, BnF,  MSS Suppl\u00e9ment Persan 1280"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b84271731/manifest.json", 
+            "label": "Paris, BnF,  MSS Suppl\u00e9ment Persan 1559"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b84322570/manifest.json", 
+            "label": "Paris, BnF,  MSS Suppl\u00e9ment Persan 1567"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b8427203q/manifest.json", 
+            "label": "Paris, BnF,  MSS Suppl\u00e9ment Persan 1781"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b8427193s/manifest.json", 
+            "label": "Paris, BnF,  MSS Suppl\u00e9ment Persan 1956"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b8427255f/manifest.json", 
+            "label": "Paris, BnF,  MSS Suppl\u00e9ment Persan 1980"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b8432229p/manifest.json", 
+            "label": "Paris, BnF,  MSS Suppl\u00e9ment Persan 2051"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b8427195m/manifest.json", 
+            "label": "Paris, BnF,  MSS Suppl\u00e9ment turc 190"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b8414989f/manifest.json", 
+            "label": "Paris, BnF,  MSS Suppl\u00e9ment turc 215"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b8415006c/manifest.json", 
+            "label": "Paris, BnF,  MSS Suppl\u00e9ment turc 326"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b8414992x/manifest.json", 
+            "label": "Paris, BnF,  MSS Suppl\u00e9ment turc 524"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b84271961/manifest.json", 
+            "label": "Paris, BnF,  MSS Suppl\u00e9ment turc 635"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b6000438h/manifest.json", 
+            "label": "Paris, BnF, MSS Suppl\u00e9ment turc 956"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b8414993b/manifest.json", 
+            "label": "Paris, BnF,  MSS Suppl\u00e9ment turc 1088"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b84322481/manifest.json", 
+            "label": "Paris, BnF, MSS Suppl\u00e9ment turc 1614"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b8415007s/manifest.json", 
+            "label": "Paris, BnF,  MSS Turc 196"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b8414994r/manifest.json", 
+            "label": "Paris, BnF,  MSS Turc 309"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b84559070/manifest.json", 
+            "label": "Paris, BnF,  MSS NAF 21013"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b6000451c/manifest.json", 
+            "label": "Paris, BnF,  MSS NAF 24541"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b8594598g/manifest.json", 
+            "label": "Paris, BnF,  MSS NAL 448"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b8555843r/manifest.json", 
+            "label": "Paris, BnF,  MSS NAL 588"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b52000478z/manifest.json", 
+            "label": "Paris, BnF,  MSS NAL 1315"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b60012903/manifest.json", 
+            "label": "Paris, BnF,  MSS NAL 1314"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b52000482p/manifest.json", 
+            "label": "Paris, BnF,  MSS NAL 1335"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b6001289f/manifest.json", 
+            "label": "Paris, BnF,  MSS NAL 1327"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b520004817/manifest.json", 
+            "label": "Paris, BnF,  MSS NAL 1336"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b10507217r/manifest.json", 
+            "label": "Paris, BnF,  MSS NAL 2290"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b550008032/manifest.json", 
+            "label": "Paris, BnF,  MSS NAL 3115"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b7100018t/manifest.json", 
+            "label": "Paris, BnF, Biblioth\u00e8que de l'Arsenal  Ms-5070 r\u00e9serve"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b10502007v/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 111"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b84522082/manifest.json", 
+            "label": "Paris, BnF,  MSS Grec 510"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b8452659r/manifest.json", 
+            "label": "Paris, BnF,  MSS Grec 1128"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b7100331q/manifest.json", 
+            "label": "Paris, BnF, Biblioth\u00e8que de l'Arsenal  "
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b55000813g/manifest.json", 
+            "label": "Paris, BnF, Biblioth\u00e8que de l'Arsenal  Ms-5080 r\u00e9serve"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b55000507q/manifest.json", 
+            "label": "Paris, BnF, Biblioth\u00e8que de l'Arsenal  3516"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b8446961t/manifest.json", 
+            "label": "Paris, BnF,  MSS Latin 4798"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b525013124/manifest.json", 
+            "label": "Paris, BnF,  MSS Grec 923"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b8427192c/manifest.json", 
+            "label": "Paris, BnF,  MSS Smith Lesou\u00ebf 224"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b84581431/manifest.json", 
+            "label": "Paris, BnF, Biblioth\u00e8que de l'Arsenal  Ms-5057 r\u00e9serve"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b55001677b/manifest.json", 
+            "label": "Paris, BnF, Biblioth\u00e8que de l'Arsenal  3479"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b85935681/manifest.json", 
+            "label": "Paris, BnF,  MSS Suppl\u00e9ment grec 610"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b530121530/manifest.json", 
+            "label": "Paris, BnF,  MSS NAF 13521"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b84581342/manifest.json", 
+            "label": "Paris, BnF, Biblioth\u00e8que de l'Arsenal  Ms-590 r\u00e9serve"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b525007307/manifest.json", 
+            "label": "Paris, BnF,  MSS Latin 15469"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b52500703b/manifest.json", 
+            "label": "Paris, BnF,  MSS Latin 15475"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b84262643/manifest.json", 
+            "label": "Paris, BnF,  MSS Latin 17307"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b84386221/manifest.json", 
+            "label": "Paris, BnF,  MSS Latin 5690"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b8470041x/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 202"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b8470040h/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 201"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b8406172r/manifest.json", 
+            "label": "Paris, BnF,  MSS Smith Lesou\u00ebf Orient 216"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b525003584/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 23082"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b7100627v/manifest.json", 
+            "label": "Paris, BnF, Biblioth\u00e8que de l'Arsenal  Ms-5080 r\u00e9serve"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b10515885n/manifest.json", 
+            "label": "Paris, BnF, MSS   Suppl\u00e9ment persan 1114"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b8427205j/manifest.json", 
+            "label": "Paris, BnF,  MSS Suppl\u00e9ment Persan 2113"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b550056550/manifest.json", 
+            "label": "Paris, BnF,  MSS Latin 9383"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b550005011/manifest.json", 
+            "label": "Paris, BnF, Biblioth\u00e8que de l'Arsenal  "
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b7100011x/manifest.json", 
+            "label": "Paris, BnF, Biblioth\u00e8que de l'Arsenal  Ms-3325"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b6000517p/manifest.json", 
+            "label": "Paris, BnF,  MSS Latin 6823"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b6000418r/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 16999"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b9061614c/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 17000"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b8432215n/manifest.json", 
+            "label": "Paris, BnF,  MSS Suppl\u00e9ment Persan 580"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b90651159/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 8651"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b9065116q/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 8650"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b90651174/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 8649"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b10509055f/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 9760"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b10510319x/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 375"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b52503818d/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 770"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b52505055c/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 616"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b60004232/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 9136"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b8449038d/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 9087"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b525045086/manifest.json", 
+            "label": "Paris, BnF,  MSS NAF 20396"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b6000034g/manifest.json", 
+            "label": "Paris, BnF,  MSS NAL 3241"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b525016575/manifest.json", 
+            "label": "Paris, BnF,  MSS Latin 15474"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b8422976g/manifest.json", 
+            "label": "Paris, BnF,  MSS Latin 12054"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b8447094d/manifest.json", 
+            "label": "Paris, BnF,  MSS Latin 7782"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b8447291v/manifest.json", 
+            "label": "Paris, BnF,  MSS Latin 10426"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b84516388/manifest.json", 
+            "label": "Paris, BnF,  MSS Latin 9427"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b8455948x/manifest.json", 
+            "label": "Paris, BnF,  MSS Latin 723"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b10509601v/manifest.json", 
+            "label": "Paris, BnF,  MSS italien 2017"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b10515446x/manifest.json", 
+            "label": "Paris, BnF,  MSS Grec 139"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b55001676w/manifest.json", 
+            "label": "Paris, BnF, Biblioth\u00e8que de l'Arsenal  3480"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b6000547t/manifest.json", 
+            "label": "Paris, BnF,  MSS Arabe 2221"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b71006110/manifest.json", 
+            "label": "Paris, BnF, Biblioth\u00e8que de l'Arsenal  Ms-4"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b84271998/manifest.json", 
+            "label": "Paris, BnF,  MSS Suppl\u00e9ment turc 316Suppl\u00e9ment turc 317"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b8436331b/manifest.json", 
+            "label": "Paris, BnF,  MSS Suppl\u00e9ment turc 317"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b85945957/manifest.json", 
+            "label": "Paris, BnF,  MSS NAL 1443"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b103036820/manifest.json", 
+            "label": "Paris, BnF,  MSS Latin 11709"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b8594593d/manifest.json", 
+            "label": "Paris, BnF,  MSS Latin 1452"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b8479009h/manifest.json", 
+            "label": "Paris, BnF, MSS Latin 1750"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b8451099w/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 568"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b8510034c/manifest.json", 
+            "label": "Paris, BnF,  MSS Latin 8959"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b84497167/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 829"
+        }, 
+        {
+            "@id": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b84525476/manifest.json", 
+            "label": "Paris, BnF,  MSS Fran\u00e7ais 10135"
+        }
+    ]
+}

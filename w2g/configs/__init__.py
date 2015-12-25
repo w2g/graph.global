@@ -14,6 +14,7 @@ import os
 import sys
 import types
 import configparser
+from pymongo import MongoClient
 
 path = os.path.dirname(os.path.realpath(__file__))
 approot = os.path.abspath(os.path.join(path, os.pardir))
@@ -32,3 +33,14 @@ HOST = config.getdef("server", "host", '0.0.0.0')
 PORT = int(config.getdef("server", "port", 8080))
 DEBUG = bool(int(config.getdef("server", "debug", 1)))
 options = {'debug': DEBUG, 'host': HOST, 'port': PORT}
+
+MONGO_DB = config.getdef('mongodb', 'db', 'graph')
+
+def mdb(database, collection, debug=DEBUG):
+    """Mongodb"""
+    client = MongoClient()
+    if debug:
+        database += "_test"
+        collection += "_test"
+    db = client[database]
+    return db[collection]

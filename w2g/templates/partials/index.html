@@ -1,0 +1,16 @@
+
+<h1><cite w2gid="">World Wide Graph (w2g)</cite></h1>
+
+
+<div id="history">
+</div>
+
+<!-- Stack of layered with focused on top -->
+<div id="focus"> 
+</div>
+
+<script type="text/javascript">
+  Entity.all(function(data){
+    $('#focus').text(JSON.stringify(data));
+  });
+</script>
