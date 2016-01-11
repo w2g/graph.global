@@ -1,16 +1,47 @@
 
-<h1><cite w2gid="">World Wide Graph (w2g)</cite></h1>
-
-
-<div id="history">
-</div>
+<h1 id="title">World Wide Graph (w2g)</h1>
+<hr/>
 
 <!-- Stack of layered with focused on top -->
+<form id="omnibar">
+  <div class="form-group">
+    <input type="text" autocomplete="off" class="form-control mousetrap" id="query" 
+           placeholder="Find an Entity" autofocus>
+  </div>
+</form>
 <div id="focus"> 
+  <ul>
+  </ul>
 </div>
 
-<script type="text/javascript">
-  Entity.all(function(data){
-    $('#focus').text(JSON.stringify(data));
-  });
-</script>
+<div id="result">
+  <div id="history">
+  </div>
+
+  <div id="entity">
+    <div id="metadata">
+    </div>
+
+    <div id="remoteIds">
+    </div>
+
+    <div id="child-edges">
+      <table>
+        <thead>
+          <tr>
+            <th>property</th>
+            <th></th>
+            <th>name</th>
+            <th>name</th>
+          </tr>
+        </thead>
+        <tbody>
+        </tbody>
+      </table>
+    </div>
+
+    <div id="parent-edges">
+
+    </div>
+  </div>
+</div>
