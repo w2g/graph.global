@@ -9,30 +9,35 @@
            placeholder="Find an Entity" autofocus>
   </div>
 </form>
-<div id="focus"> 
+<div id="history"> 
   <ul>
   </ul>
 </div>
 
-<div id="result">
-  <div id="history">
-  </div>
-
+<div id="results" class="hidden">
   <div id="entity">
-    <div id="metadata">
-    </div>
+    <textarea id="data">
+    </textarea>
 
     <div id="remoteIds">
+      <h2>Remote IDs</h2>
+      <table>
+        <thead>
+          <th>Source</th>
+        </thead>
+        <tbody>          
+        </tbody>
+      </table>
     </div>
 
     <div id="child-edges">
+      <h2>Children</h2>
       <table>
         <thead>
           <tr>
-            <th>property</th>
-            <th></th>
-            <th>name</th>
-            <th>name</th>
+            <th>Property</th>
+            <th>Relation</th>
+            <th>Child</th>
           </tr>
         </thead>
         <tbody>
@@ -43,5 +48,6 @@
     <div id="parent-edges">
 
     </div>
+    <button id="update">Update</button>
   </div>
 </div>

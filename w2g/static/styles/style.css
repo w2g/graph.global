@@ -1,16 +1,62 @@
+.unpad {
+    margin: 0px;
+    padding: 0px;
+}
 
 body {
     width: 600px;
     //font-family: 'Lora', serif;
-    font-family: 'Raleway', sans-serif;
 }
 
 h1 {
+    font-family: "Linux Libertine",Georgia,Times,serif;
+    font-size: 2em;
     font-weight: 100;
 }
 
 .w2g-tag {
-color: green;
-padding: 3px 5px;
-border-radius: 3px;
+    color: green;
+    padding: 3px 5px;
+    border-radius: 3px;
+}
+
+.active {
+    background-color: yellow;
+}
+
+#history {
+}
+
+.leftify {
+    background-color: #ccc;
+    border-right: #ddd;
+    width: 150px;
+    float: left;
+}
+
+#history {
+}
+
+#history ul {
+  padding: 0px;
+}
+
+#history ul li {
+  list-style-type: none;
+  padding: 0px;
+  margin: 10px;
+}
+
+#results {
+    float: left;
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+entity {
+    background-color: #dce6f8;
+    padding: 5px 10px;;
+    border-radius: 3px;
 }

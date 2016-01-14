@@ -1,106 +1,216 @@
-
-var redux, search, state0, state1;
+var redux, urlparse, search, states;
 (function () {
-  'use strict'; 
-
+  "use strict"; 
+  
   // immutable.js (undo for free)
   redux = {
-    focus: undefined,
-    entity: undefined,
-    state: 0
+    query: undefined,
+    context: undefined,
+    history: [],
+    entity: {}
   }
 
-  search = function(q) {
-    Entity.search(q, function(results) {
-      $('#focus ul').empty();
-      redux.focus = undefined;
-      $(results.entities).each(function(index, item) {
-        $('#focus ul').append('<li id="' + item.id + '">' + item.name + '</li>');
+  var SearchResults = {
+    clear: function() {
+      $('#history ul').empty()
+      $("#query").focus();
+    },
+
+    render: function(q, cb) {
+      var self = this;
+      Entity.search(q, function(results) {
+        self.clear();
+        $(results.entities).each(function(index, entity) {
+          $("#history ul").append(
+            '<li>' + 
+              '<entity id="' + entity.id + '">' + entity.name + '</entity>' +
+            '</li>'
+          );
+        });
+        if (cb) { cb() }
       });
-    });
-  }  
-  state0 = function() {
-    $('#title').text('World Wide Graph (w2g)');
-    $("#omnibar").show();
-    $('#query').focus();
-    console.log($("#query").val());
-    search($("#query").val());
+    }
   }
 
-  state1 = function(title) {
-    $("#query").blur();
-    $("#focus ul").empty();
-    $("#title").text($("#query").val());
-    $("#omnibar").hide();
-    $("#title").text(title);
-    //$("#entity")
+
+  var SearchPage = {
+
+    focus: function() {
+      $('entity').removeClass('active');
+      $('#query').focus();
+    },
+
+    reset: function(cb) {
+      $("#history ul").empty();
+      $("#omnibar").hide();
+      EntityPage.reset();
+      $("#query").blur();
+    },
+        
+
+    render: function(q, cb) {
+      // see if history 
+      this.reset()
+      var title = redux.history.length ? redux.history[redux.history.length-1].name :
+        "World Wide Graph (w2g)";
+      $("#title").text(title);
+      SearchResults.render(q, function() {
+        $("#omnibar").show();
+        $("#query").select();
+      })
+
+    }
+  }
+
+  var EntityPage = {
+    reset: function() {
+      // clear results pages
+      $("#results").addClass("hidden");
+      $("#data").empty()
+      $("#remoteIds table tbody").empty()
+      redux.history.pop()
+    },
+    
+    render: function() {
+      SearchPage.reset();
+      Entity.get(redux.entity.id, function(entity) {
+        redux.history.push({
+          id: entity.id,
+          name: entity.name
+        });
+        redux.entity = entity;
+        $("#data").val(JSON.stringify(redux.entity.data));
+        $("#remoteIds table tbody").append(JSON.stringify(redux.entity.remoteIds));
+        $("#title").text(redux.entity.name);
+        $("#results").removeClass("hidden");
+      });
+    }
   };
-  var states = [state0, state1];
+
+  var mod = function(n, m) {
+    return(((n % m) + m) % m);
+  }
+
+  /* Retrieves the next `entity` after `.active` one */
+  var nextEntity = function(offset) {
+    var entities = $('entity');
+    
+    // If there are no entities
+    if (!entities.length) {
+      return(undefined);
+    }
+    
+    var active = $('entity.active').length? $('entity.active')[0] : undefined;
+
+    if (active) {
+      var offset = offset || 1;
+      var index = entities.index(active);
+      if ((index == 0 && offset == -1) || (index == entities.length-1 && offset == 1)) {
+        return(undefined)
+      }
+      return(entities[mod(index + offset, entities.length)]);
+    }
+
+    offset = offset || 0;
+    return(entities[mod(offset, entities.length)]);
+  };
+
+
+  var selectEntity = function(e) {
+    $('#query').blur();
+    $('entity').removeClass('active');
+    $(e).addClass('active');
+  }
   
-  Mousetrap.bind('up', function(e) {
-    console.log('up');
-    var count = $('#focus ul li').length;
-    if (count > 0 ) {
-      console.log('count: ' + count);
-      console.log('focus: ' + focus);
-      $("#focus>ul>li.active").removeClass("active");
-      if (isNaN(redux.focus)) {
-        redux.focus = count - 1;
-      } else if (redux.focus == 0) {
-        redux.focus = undefined;
-        $('#query').focus();
-      } else {
-        redux.focus = (count + redux.focus - 1) % count;
-      }
-      $('#focus ul li:eq(' + redux.focus + ')').addClass('active');
+  // show div model with hierarchical history:
+  //Mousetrap.bind("Shift + h", function(e) {
+  //});
+
+  Mousetrap.bind("up", function(e) {
+    e.preventDefault(); // preserves input pos
+    var entity = nextEntity(-1);
+    if (entity) {
+      redux.entity = {
+        id: entity.id,
+        name: entity.text
+      };
+      selectEntity(entity);
+    } else {
+      SearchPage.focus();
     }
   });
 
-  Mousetrap.bind('down', function(e) {
-    console.log('down');
-    var count = $('#focus ul li').length;
-    if (count > 0) {
-      $("#focus>ul>li.active").removeClass("active");
-      if (isNaN(redux.focus)) {
-        redux.focus = 0;
-      } else if (redux.focus == count - 1) {
-        redux.focus = undefined;
-        $('#query').focus();
-      } else {
-        redux.focus = (redux.focus + 1) % count;
-      }
-      $('#focus ul li:eq(' + redux.focus + ')').addClass('active');
+  Mousetrap.bind("down", function(e) {
+    var e = nextEntity();
+    if (e) {
+      redux.entity = {
+        id: e.id,
+        name: e.text
+      };
+      selectEntity(e);
+    } else {
+      SearchPage.focus();
     }
   });
 
-  Mousetrap.bind('enter', function(e) {
-    console.log($("#query").val());
+  Mousetrap.bind("enter", function(e) {
+    $("#query").blur();
     Entity.create({name: $("#query").val()}, function(data) {
-      redux.state = 1;
-      states[redux.state]($("#query").val());
+      redux.history.push(redux.entity);
       redux.entity = data;
-      alert(JSON.stringify(redux.entity));
+      EntityPage.render()
     });    
   });
 
-  Mousetrap.bind('left', function(e) {
-    redux.state -= redux.state > 0 ? 1 : 0;
-    states[redux.state]();
+  Mousetrap.bind("left", function(e) {
+    SearchPage.render()
   });
 
-  Mousetrap.bind('right', function(e) {
-    if (Number.isInteger(redux.focus)) {
-      var eid = $('#focus ul li.active')[0].id;
-      redux.state = 1;
-      states[redux.state]($('#focus ul li.active').text());        
-      Entity.get(eid, function(data) {
-        alert(JSON.stringify(data));
-      });
-    }    
+  Mousetrap.bind("right", function(e) {
+    var active = $('entity.active');
+    if (active.length) {
+      redux.entity = {
+        id: active[0].id,
+        name: active[0].text
+      };
+      console.log(redux);
+      EntityPage.render()
+    }
+  });
+  
+  $(document).on("keyup", "#query", function() {
+    SearchResults.render($("#query").val());
   });
 
-  $(document).on('keyup', '#query', function() {
-    search($('#query').val());
-  });
-
+  
+  var urlparse = {
+    parameters: function(key) {
+      var query = window.location.search.substring(1);
+      var params = query.split("&");
+      if (key) {
+        for (var i=0;i<params.length;i++) {
+          var item = params[i].split("=");
+          var val = item[1];
+          if(item[0] == key){return(val);}
+        }
+        return(undefined);
+      }
+      return(items);
+    }
+  }
+                 
+  // init
+  var seedid = urlparse.parameters('id');
+  if (seedid) {
+    try {
+      redux.entity = {
+        id: parseInt(seedid),
+        name: undefined
+      }
+      EntityPage.render();
+    } catch(e) {
+      console.log('id must be a valid integer Entity ID');
+    }
+  }
+  
 }());
