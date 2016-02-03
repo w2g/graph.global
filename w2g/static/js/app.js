@@ -5,9 +5,49 @@ var redux, urlparse, search, states;
   // immutable.js (undo for free)
   redux = {
     query: undefined,
-    context: undefined,
+    context: {
+      id: 16,
+      name: "World Wide Graph (w2g)" 
+    },
     history: [],
     entity: {}
+  }
+
+  var ResourceTable = {
+    render: function() {
+      this.clear();
+      Entity.resources(redux.entity.id, function(resp) {
+        redux.entity.resources = resp.resources;
+        $(redux.entity.resources).each(function(index, rc) {
+          $('#resources table tbody').append(
+            '<tr>' + 
+              '<td><input style="border: none;" value="' + rc.title + '"/></td>' +
+              '<td><input style="border: none;" value="' + rc.url + '"/></td>' +
+              '<td><input style="border: none;" value="' + rc.avatar + '"/></td>' +
+              '<td><input style="border: none;" value="' + rc.description + '"/></td>' +
+              '</tr>'
+          );
+        });
+      });
+    },
+    
+    clear: function() {
+      $('#resources table tbody').empty();
+      $('#resource-title').val('');
+      $('#resource-url').val('');
+      $('#resource-avatar').val('');
+      $('#resource-desc').val('');
+    }
+  }
+
+  var Identifiers = {
+
+  }
+
+  var EveryPage = {
+    refresh: function() {
+      $('#contexts .selected').text(redux.context.name);
+    }
   }
 
   var SearchResults = {
@@ -27,62 +67,76 @@ var redux, urlparse, search, states;
             '</li>'
           );
         });
+        
         if (cb) { cb() }
       });
     }
   }
 
+  var Title = {
+    reset: function() {
+      var title = redux.history.length ? redux.history[redux.history.length-1].name :
+        "World Wide Graph (w2g)";
+      $("#title").text(title);
+    },
+    render: function() {
+      $("#title").text(redux.entity.name + ' (' + redux.entity.id + ')');
+    },
+    update: function() {
+      // on click out, save title in db
+    }
+  };
 
   var SearchPage = {
-
     focus: function() {
       $('entity').removeClass('active');
       $('#query').focus();
     },
-
-    reset: function(cb) {
-      $("#history ul").empty();
+    hide: function() {
       $("#omnibar").hide();
-      EntityPage.reset();
-      $("#query").blur();
+      $("#history ul").empty();
     },
-        
-
     render: function(q, cb) {
-      // see if history 
-      this.reset()
-      var title = redux.history.length ? redux.history[redux.history.length-1].name :
-        "World Wide Graph (w2g)";
-      $("#title").text(title);
+      Title.reset();
       SearchResults.render(q, function() {
         $("#omnibar").show();
-        $("#query").select();
+        $("#query").select()
+        if (cb) { cb() };
       })
-
     }
-  }
+  };
 
   var EntityPage = {
     reset: function() {
       // clear results pages
+      ResourceTable.clear();
       $("#results").addClass("hidden");
       $("#data").empty()
-      $("#remoteIds table tbody").empty()
-      redux.history.pop()
+      $("#remoteIds table tbody td input").each(function(i, e) {
+        $(e).val('');
+      });
+      redux.history.pop();
     },
     
-    render: function() {
-      SearchPage.reset();
+    render: function(cb) {
       Entity.get(redux.entity.id, function(entity) {
+        SearchPage.hide();
         redux.history.push({
           id: entity.id,
           name: entity.name
         });
         redux.entity = entity;
+        ResourceTable.render();
         $("#data").val(JSON.stringify(redux.entity.data));
-        $("#remoteIds table tbody").append(JSON.stringify(redux.entity.remoteIds));
-        $("#title").text(redux.entity.name);
         $("#results").removeClass("hidden");
+        // XXX
+        $(redux.entity.remoteIds).each(function(index, remoteId) {        
+          var sel = '#source-' + remoteId.source_id + ' input';
+          $(sel).val(remoteId.remote_id);
+          $(sel).attr('pkey', remoteId.id);
+        });
+        Title.render()
+        if (cb) { cb(entity) }
       });
     }
   };
@@ -156,14 +210,19 @@ var redux, urlparse, search, states;
   Mousetrap.bind("enter", function(e) {
     $("#query").blur();
     Entity.create({name: $("#query").val()}, function(data) {
-      redux.history.push(redux.entity);
       redux.entity = data;
       EntityPage.render()
     });    
   });
 
   Mousetrap.bind("left", function(e) {
-    SearchPage.render()
+    EntityPage.reset();
+    SearchPage.render($('#query').val(), function() {
+      if (redux.entity.id) {
+        $("#query").blur();
+        $('#' + redux.entity.id).addClass('active');
+      }
+    });
   });
 
   Mousetrap.bind("right", function(e) {
@@ -173,13 +232,50 @@ var redux, urlparse, search, states;
         id: active[0].id,
         name: active[0].text
       };
-      console.log(redux);
-      EntityPage.render()
+      EntityPage.render();
     }
   });
   
   $(document).on("keyup", "#query", function() {
     SearchResults.render($("#query").val());
+  });
+
+  $(document).on("focusout", "#data", function() {
+    console.log('Saving data');
+  });
+
+  $(document).on("click", "#add-resource", function() {
+    console.log('adding resource');
+    Resource.create({
+      title: $('#resource-title').val(),
+      url: $('#resource-url').val(),
+      avatar: $('#resource-avatar').val(),
+      description: $('#resource-desc').val()
+    }, function(rc) {
+      Entity.associate_resource(redux.entity.id, rc.id, function(rel) {
+        console.log(data);
+        ResourceTable.clear();
+        ResourceTable.render();
+      });
+    });
+  });
+
+  $(document).on("focusout", "#remoteIds table tbody .value", function() {
+    var self = this;
+    if ($(self).attr('pkey')) {
+      // RemoteId.update($(this).attr('pkey'), {
+        //   remote_id: $(this).attr('value'),
+      // })
+    } else {
+      console.log();
+      RemoteId.create({
+        remote_id: $(self).val(),
+        source_id: parseInt($(self).closest('tr').attr('id').split('-')[1]),
+        entity_id: parseInt(redux.entity.id)
+      }, function(e) {
+        console.log(e);
+      });
+    }
   });
 
   
@@ -198,16 +294,29 @@ var redux, urlparse, search, states;
       return(items);
     }
   }
-                 
+  
+  
+
+  Source.all(function(response) {
+    var sources = response.sources;
+    $(sources).each(function(index, source) {      
+      $('#remoteIds table tbody').append(
+        "<tr id='source-" + source.id + "'><td>" + source.entity.name + " ID</td><td><input class='value typeahead'/></td></tr>"        
+      );
+    });
+  });
+
   // init
-  var seedid = urlparse.parameters('id');
-  if (seedid) {
+  var seedId = urlparse.parameters('id');
+  if (seedId) {
     try {
       redux.entity = {
-        id: parseInt(seedid),
+        id: parseInt(seedId),
         name: undefined
       }
-      EntityPage.render();
+      EntityPage.render(function(e) {
+        $('#query').val(redux.entity.name);
+      });
     } catch(e) {
       console.log('id must be a valid integer Entity ID');
     }

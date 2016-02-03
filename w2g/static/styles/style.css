@@ -3,9 +3,17 @@
     padding: 0px;
 }
 
+html {
+//    cursor: none;
+}
+
 body {
     width: 600px;
     //font-family: 'Lora', serif;
+}
+
+input, textarea, li{
+    cursor: none;
 }
 
 h1 {
@@ -22,6 +30,10 @@ h1 {
 
 .active {
     background-color: yellow;
+}
+
+.selected {
+    background-color: #8B929E;
 }
 
 #history {
@@ -57,6 +69,15 @@ h1 {
 
 entity {
     background-color: #dce6f8;
-    padding: 5px 10px;;
+    padding: 5px 10px;
     border-radius: 3px;
+}
+
+.value { 
+    width: 100px;
+    border: none;
+}
+
+#contexts ul li {
+    display: inline;
 }
