@@ -1,8 +1,21 @@
+/*
+  How many views are there?
+  - DiscoveryPage
+  - IncomingPage f:IncomingPage(selection)->ContentPage
+  - ContentPage
+  - ResourcePage
+
+Escape key jumps 
+
+*/
+
+
 var redux, urlparse, search, states;
 (function () {
   "use strict"; 
   
-  // immutable.js (undo for free)
+  // TODO: immutable.js (undo for free)
+
   redux = {
     query: undefined,
     context: {
@@ -11,11 +24,76 @@ var redux, urlparse, search, states;
     },
     history: [],
     entity: {}
+  };
+
+  // direction is true, false
+  var magnify = function() {
+
   }
 
-  var ResourceTable = {
-    render: function() {
-      this.clear();
+
+  var DependencyTable = function() {
+    var self = this;
+    var clear = function() {
+      $('#edges table tbody').empty();
+      $('#edge-relation').val('');
+      $('#edge-target').val('');
+    };
+    var render = function() {
+      clear();
+      Entity.edges(redux.entity.id, function(resp) {
+        redux.entity.edges = resp.edges;
+        $(redux.entity.edges.children).each(function(index, edge) {
+          $('#edges table tbody').append(
+            '<tr>' + 
+              '<td>' + edge.id + '</td>' + 
+              '<td><input style="border: none;" value="' + edge.relation.name + '"/></td>' +
+              '<td><input style="border: none;" value="' + edge.target.name + '"/></td>' +
+              //'<td></td>' + '<td></td>' +
+            '</tr>'
+          );
+        });
+      });
+    };
+
+    $(document).on("click", "#add-edge", function() {
+      console.log('adding edge');
+      
+      var relation = '#edge-relation';
+      var target = '#edge-target';
+      var entities = [target, relation];
+
+      var rmake = function(entities) {
+        if (entities.length) {
+          if (!isNaN(parseInt(entities[0]))) {
+            Entity.create($(entities[0]).val(), function(e) {
+              $(entities[0]).siblings[0].innerHTML(e.id);
+              rmake(entities.slice(1));
+            });
+          }
+        }
+      }
+
+      Edge.create(
+        redux.entity.id,
+        $(relation).siblings()[0].innerHTML,
+        $(target).siblings()[0].innerHTML,
+        function(edge) {
+          clear();
+          render();
+        }
+      );
+    });
+
+    return {
+      'render': render,
+      'clear': clear
+    }
+  }();
+
+  var ResourceTable = function() {
+    var render = function() {
+      clear();
       Entity.resources(redux.entity.id, function(resp) {
         redux.entity.resources = resp.resources;
         $(redux.entity.resources).each(function(index, rc) {
@@ -25,24 +103,90 @@ var redux, urlparse, search, states;
               '<td><input style="border: none;" value="' + rc.url + '"/></td>' +
               '<td><input style="border: none;" value="' + rc.avatar + '"/></td>' +
               '<td><input style="border: none;" value="' + rc.description + '"/></td>' +
-              '</tr>'
+            '</tr>'
           );
         });
       });
-    },
-    
-    clear: function() {
+    };      
+    var clear = function() {
       $('#resources table tbody').empty();
       $('#resource-title').val('');
       $('#resource-url').val('');
       $('#resource-avatar').val('');
       $('#resource-desc').val('');
+    };
+
+    $(document).on("click", "#add-resource", function() {
+      console.log('adding resource');
+      Resource.create({
+        title: $('#resource-title').val(),
+        url: $('#resource-url').val(),
+        avatar: $('#resource-avatar').val(),
+        description: $('#resource-desc').val()
+      }, function(rc) {
+        Entity.associate_resource(redux.entity.id, rc.id, function(rel) {
+          clear();
+          render();
+        });
+      });
+    });
+
+    return {
+      'render': render,
+      'clear': clear
     }
-  }
+  }();
 
-  var Identifiers = {
 
-  }
+  var IdentifierTable = function() {
+    // load table header
+    Source.all(function(response) {
+      var sources = response.sources;
+      $(sources).each(function(index, source) {      
+        $('#remoteIds table tbody').append(
+          "<tr id='source-" + source.id + "'><td>" +
+            source.entity.name +
+            " ID</td><td><input class='value typeahead'/></td>" +
+          "</tr>"
+        );
+      });
+    });
+
+    $(document).on("focusout", "#remoteIds table tbody .value", function() {
+      var self = this;
+      if ($(self).attr('pkey')) {
+        // RemoteId.update($(this).attr('pkey'), {
+        //   remote_id: $(this).attr('value'),
+        // })
+      } else {
+        console.log();
+        RemoteId.create({
+          remote_id: $(self).val(),
+          source_id: parseInt($(self).closest('tr').attr('id').split('-')[1]),
+          entity_id: parseInt(redux.entity.id)
+        }, function(e) {
+          console.log(e);
+        });
+      }
+    });
+
+    return {
+      render: function() {
+        this.clear();
+        $(redux.entity.remoteIds).each(function(index, remoteId) {        
+          var sel = '#source-' + remoteId.source_id + ' input';
+          $(sel).val(remoteId.remote_id);
+          $(sel).attr('pkey', remoteId.id);
+        });
+      },
+
+      clear: function() {
+        $("#remoteIds table tbody td input").each(function(i, e) {
+          $(e).val('');
+        });
+      }
+    }
+  }();
 
   var EveryPage = {
     refresh: function() {
@@ -110,11 +254,10 @@ var redux, urlparse, search, states;
     reset: function() {
       // clear results pages
       ResourceTable.clear();
+      DependencyTable.clear();
       $("#results").addClass("hidden");
       $("#data").empty()
-      $("#remoteIds table tbody td input").each(function(i, e) {
-        $(e).val('');
-      });
+      IdentifierTable.clear();
       redux.history.pop();
     },
     
@@ -125,25 +268,18 @@ var redux, urlparse, search, states;
           id: entity.id,
           name: entity.name
         });
-        redux.entity = entity;
+        redux.entity = entity;        
         ResourceTable.render();
+        DependencyTable.render();
         $("#data").val(JSON.stringify(redux.entity.data));
         $("#results").removeClass("hidden");
-        // XXX
-        $(redux.entity.remoteIds).each(function(index, remoteId) {        
-          var sel = '#source-' + remoteId.source_id + ' input';
-          $(sel).val(remoteId.remote_id);
-          $(sel).attr('pkey', remoteId.id);
-        });
+
+        IdentifierTable.render();
         Title.render()
         if (cb) { cb(entity) }
       });
     }
   };
-
-  var mod = function(n, m) {
-    return(((n % m) + m) % m);
-  }
 
   /* Retrieves the next `entity` after `.active` one */
   var nextEntity = function(offset) {
@@ -226,6 +362,10 @@ var redux, urlparse, search, states;
   });
 
   Mousetrap.bind("right", function(e) {
+    /*
+      
+     */
+
     var active = $('entity.active');
     if (active.length) {
       redux.entity = {
@@ -244,38 +384,37 @@ var redux, urlparse, search, states;
     console.log('Saving data');
   });
 
-  $(document).on("click", "#add-resource", function() {
-    console.log('adding resource');
-    Resource.create({
-      title: $('#resource-title').val(),
-      url: $('#resource-url').val(),
-      avatar: $('#resource-avatar').val(),
-      description: $('#resource-desc').val()
-    }, function(rc) {
-      Entity.associate_resource(redux.entity.id, rc.id, function(rel) {
-        console.log(data);
-        ResourceTable.clear();
-        ResourceTable.render();
-      });
-    });
-  });
-
-  $(document).on("focusout", "#remoteIds table tbody .value", function() {
+  $(document).on("focusin", ".typeahead", function() {
     var self = this;
-    if ($(self).attr('pkey')) {
-      // RemoteId.update($(this).attr('pkey'), {
-        //   remote_id: $(this).attr('value'),
-      // })
-    } else {
-      console.log();
-      RemoteId.create({
-        remote_id: $(self).val(),
-        source_id: parseInt($(self).closest('tr').attr('id').split('-')[1]),
-        entity_id: parseInt(redux.entity.id)
-      }, function(e) {
-        console.log(e);
-      });
-    }
+    console.log('lol');
+    console.log(this);
+    $(this).autocomplete({
+      source: function (request, response) {
+        $.ajax({
+          url: '/v1/entities?action=search&field=name&query=' + request.term + '&limit=15',
+          success: function( data ) {
+            var entities = $.map(data.entities, function(entity) {
+              return {
+                label: entity.name,
+                value: entity.id
+              };
+            });
+            console.log(entities);
+            response(entities);            
+          }
+        });
+      },
+      minLength: 2,
+      focus: function (event, ui) {
+        $(event.target).val(ui.item.label);
+        return false;
+      },
+      select: function (event, ui) {
+        $(self).val(ui.item.label);
+        $(self).attr('eid', ui.item.value);
+        return false;
+      }
+    });
   });
 
   
@@ -294,17 +433,7 @@ var redux, urlparse, search, states;
       return(items);
     }
   }
-  
-  
 
-  Source.all(function(response) {
-    var sources = response.sources;
-    $(sources).each(function(index, source) {      
-      $('#remoteIds table tbody').append(
-        "<tr id='source-" + source.id + "'><td>" + source.entity.name + " ID</td><td><input class='value typeahead'/></td></tr>"        
-      );
-    });
-  });
 
   // init
   var seedId = urlparse.parameters('id');
@@ -321,5 +450,6 @@ var redux, urlparse, search, states;
       console.log('id must be a valid integer Entity ID');
     }
   }
+
   
 }());

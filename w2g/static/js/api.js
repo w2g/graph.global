@@ -1,4 +1,5 @@
 
+var mod;
 var Entity, Source, RemoteId, Edge, Resource;
 (function () {
   'use strict'; 
@@ -46,21 +47,26 @@ var Entity, Source, RemoteId, Edge, Resource;
   };
 
   Edge = {
-    create: function(source_id, relation_id, target_id, context_id, name_id) {
+    create: function(source_eid, relation_eid, target_eid, callback) {
       // should deal with ids / names which don't (yet) exist
       requests.post(apiurl + '/edges', {
-        source_eid: source_id,
-        relation_eid: relation_id,
-        target_eid: target_id
+        source_eid: source_eid,
+        relation_eid: relation_eid,
+        target_eid: target_eid
       }, function(edge) {
-        requests.post(apiurl + '/contexts', {
-          entity_id: source_id,
-          edge_id: edge.id
-        }, function(context) {
-          console.log(context);
-        });
+        console.log(edge);
+        callback(edge);
+        /*
+        if(context_id) {
+          requests.post(apiurl + '/contexts', {
+            entity_id: source_id,
+            edge_id: edge.id
+          }, function(context) {
+            console.log(context);
+          });
+          }
+        */
       });
-
     }
   }
 
@@ -110,7 +116,14 @@ var Entity, Source, RemoteId, Edge, Resource;
     resources: function(id, callback) {
       var url = apiurl + '/entities/' + id + '/resources';
       requests.get(url, callback);
-    }
+    },
+
+    /* Returns {edges: {parents: [], children: []}} */
+    edges: function(id, callback) {
+      var url = apiurl + '/entities/' + id + '/edges';
+      requests.get(url, callback);
+    },
+
   };
 
   var debounce = function (func, threshold, execAsap) {
@@ -131,5 +144,9 @@ var Entity, Source, RemoteId, Edge, Resource;
       timeout = setTimeout(delayed, threshold || 100);
     };
   };
+
+  mod = function(n, m) {
+    return(((n % m) + m) % m);
+  }
 
 }());

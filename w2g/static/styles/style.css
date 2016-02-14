@@ -1,3 +1,18 @@
+#search {
+    height: 100%;
+    width: 33.3%;
+    overflow-y: scroll.
+}
+
+// decrease resolution
+#broaden {
+
+}
+
+#magnify {
+
+}
+
 .unpad {
     margin: 0px;
     padding: 0px;
@@ -14,6 +29,10 @@ body {
 
 input, textarea, li{
     cursor: none;
+}
+
+table tr td input {
+    width: 100%;
 }
 
 h1 {
@@ -74,10 +93,10 @@ entity {
 }
 
 .value { 
-    width: 100px;
     border: none;
 }
 
 #contexts ul li {
     display: inline;
 }
+
