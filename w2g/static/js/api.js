@@ -4,6 +4,7 @@ var Entity, Source, RemoteId, Edge, Resource;
 (function () {
   'use strict'; 
 
+  $.support.cors = true
   var apiurl = "https://graph.global/v1";
 
   var requests = {
@@ -26,7 +27,7 @@ var Entity, Source, RemoteId, Edge, Resource;
       }).done(function(data) {
         if (callback) { callback(data); }
       });
-    }
+    },
   };
 
   Resource = {
@@ -47,6 +48,11 @@ var Entity, Source, RemoteId, Edge, Resource;
   };
 
   Edge = {
+    all: function(callback) {
+      requests.get(apiurl + '/edges?verbose=1', function(edges) {
+        callback(edges);
+      });
+    },
     create: function(source_eid, relation_eid, target_eid, callback) {
       // should deal with ids / names which don't (yet) exist
       requests.post(apiurl + '/edges', {
@@ -67,6 +73,10 @@ var Entity, Source, RemoteId, Edge, Resource;
           }
         */
       });
+    },
+    delete: function(id, callback) {
+      var url = apiurl + '/edges/' + id + '/delete';
+      requests.get(url, callback);
     }
   }
 
@@ -123,6 +133,11 @@ var Entity, Source, RemoteId, Edge, Resource;
       var url = apiurl + '/entities/' + id + '/edges';
       requests.get(url, callback);
     },
+
+    delete: function(id, callback) {
+      var url = apiurl + '/entities/' + id + '/delete';
+      requests.get(url, callback);
+    }
 
   };
 

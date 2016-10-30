@@ -4,13 +4,18 @@
     <span id="context"></span>
   </h1>
 
+  <div id="provenance"> 
+    <ul>
+    </ul>
+  </div>
+
   <hr/>
 
   <!-- Stack of layered with focused on top -->
   <form id="omnibar">
     <div class="form-group">
       <input type="text" autocomplete="off" class="form-control mousetrap" id="query" 
-             placeholder="Find an Entity" autofocus>
+             placeholder="Find an Entity" autofocus/>
     </div>
   </form>
   <div id="history"> 
@@ -20,6 +25,11 @@
 </div>
 
 <div id="results" class="hidden">  
+
+  <div id="remoteIds">
+    <ul></ul>
+  </div>
+
   <div id="contexts">      
   </div>
 
@@ -28,77 +38,16 @@
 
   <div id="entity">
 
-    <div id="resources">
-      <h2>Resources</h2>
-      <table class="table">
-        <thead>
-          <tr>
-            <th>title</th>
-            <th>url</th>
-            <th>avatar</th>
-            <th>desc</th>
-          </tr>
-        </thead>
-        <tbody>
-        </tbody>
-        <tfoot>
-          <tr>
-            <td><input id="resource-title"/></td>
-            <td><input id="resource-url" type="url"/></td>
-            <td><input id="resource-avatar" type="url"/></td>
-            <td><input id="resource-desc"/></td>
-          </tr>
-        </tfoot>
-      </table>
-      
-      <button id="add-resource">Add Resource</button>
-    </div>
-
-    <div id="remoteIds">
-      <h2>Identifiers</h2>
-      <table class="table">
-        <thead>
-          <th>Source</th>
-          <th>ID</th>
-        </thead>
-        <tbody>   
-        </tbody>
-        <!-- Add + -->
-      </table>
-    </div>
-
-
     <div id="pos"></div>
 
     <div id="edges">
-      <h2>Dependencies</h2>
-      <table class="table">
-        <thead>
-          <tr>
-            <th></th>
-            <th>Function</th>
-            <th>Entity</th>
-            <!--
-            <th>Called</th>
-            <th>Contexts</th>
-            -->
-          </tr>
-        </thead>
-        <tbody>
-        </tbody>
-        <tfoot>
-          <tr>
-            <td></td>
-            <td class="ui-widget"><input id="edge-relation" class="typeahead"/></td>
-            <td class="ui-widget"><input id="edge-target" class="typeahead"/></td>
-            <!--
-            <td class="ui-widget"><input id="edge-name" class="typeahead"/></td>
-            <td class="ui-widget"><input id="edge-context" class="typeahead"/></td>
-            -->
-          </tr>
-        </tfoot>
-      </table>
-      <button id="add-edge">Add Edge</button>
+      <div class="ui-widget">
+        <input id="edge-relation" class="typeahead"/>
+        <input id="edge-target" class="typeahead"/>
+        <button id="add-edge">Add Edge</button>
+      </div>
+      <ul>
+      </ul>
     </div>
   </div>
 

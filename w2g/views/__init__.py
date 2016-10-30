@@ -14,6 +14,7 @@ from flask import render_template, Response
 from flask.views import MethodView
 from werkzeug import wrappers
 
+
 class Base(MethodView):
     def get(self, uri=""):
         layout = uri.replace(".html", "")
