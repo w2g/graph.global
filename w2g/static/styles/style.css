@@ -151,10 +151,10 @@ entity:hover {
 .app-head {
     margin-top: 20px;
     padding: 15px;
-    background-color: #f1f8ff;
-    border: 1px solid #c8e1ff;
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
+    //background-color: #f1f8ff;
+    //border: 1px solid #c8e1ff;
+    //border-top-left-radius: 5px;
+    //border-top-right-radius: 5px;
 }
 
 .app-head h1 {
@@ -163,11 +163,11 @@ entity:hover {
 
 .app-body {
     padding: 16px;
-    border: 1px solid #eee;
-    border-top: none;
-    border-radius: 5px;
-    border-top-left-radius: 0;
-    border-top-right-radius: 0;
+    //border: 1px solid #eee;
+    //border-top: none;
+    //border-radius: 5px;
+    //border-top-left-radius: 0;
+    //border-top-right-radius: 0;
 }
 
 .container {
@@ -198,11 +198,6 @@ cite:hover {
     color: #999;
 }
 
-.ui-widget {
-    padding: 10px;
-    border-radius: 5px;
-    margin: 0 0 10px 0;
-}
 
 .make_entity {
     margin: 0 15px;
@@ -249,4 +244,20 @@ button.btn-secondary {
 
 .alias {
     background-color: #ffdbe5;
+}
+
+#addEdges {
+    display: flex;
+    padding: 15px;
+    border: 1px solid #eee;
+    border-radius: 6px;
+    background: #fafbfc;
+}
+
+#addEdges * {
+    margin-right: 10px;
+}
+
+#addEdges *:last-child {
+    margin-right: none;
 }

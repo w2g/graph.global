@@ -1,3 +1,5 @@
+<script type="text/javascript" src="/static/js/app.js"></script>
+
 <div id="search">
 
   <!-- Stack of layered with focused on top -->
@@ -17,8 +19,8 @@
 
   <div class="node-options">
     <input type="text" class="form-control" placeholder="Filter">
-    <button class="btn-primary btn-toggle" for-id='addEdges'>New relation</button>
-    <button class="btn-primary btn-toggle" for-id='remoteIds'>Add identifier</button>
+    <button class="btn-primary btn-toggle" for-id="addEdges">Add relation</button>
+    <button class="btn-primary btn-toggle" for-id="remoteIds">Add identifier</button>
   </div>
 
   <div id="remoteIds" class="hide">
@@ -36,8 +38,8 @@
     <div id="pos"></div>
 
     <div id="addEdges" class="ui-widget hide">
-      <input id="edge-relation" class="typeahead"/>      
-      <input id="edge-target" class="typeahead"/>
+      <input id="edge-relation" class="form-control typeahead"/>
+      <input id="edge-target" class="form-control typeahead"/>
       <button id="add-edge">Add Edge</button>
     </div>
 

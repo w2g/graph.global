@@ -19,6 +19,10 @@ from configs import options
 urls = ('/partials/<path:partial>', views.Partial,
         '/api', api,
         '/<path:uri>', views.Base,
+        '/edit/<path:slug>', views.Edit,
+        '/edit', views.Edit,
+        '/posts/<path:slug>', views.Posts,
+        '/posts', views.Posts,
         '/', views.Base
         )
 app = router(Flask(__name__), urls)

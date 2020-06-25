@@ -4,15 +4,17 @@
 <link rel="stylesheet" type="text/css" href="/static/styles/edit.css"/>
 
 
-<p class="component-filename">
+<div class="component-filename">
   https://mek.fyi/posts/<span contenteditable="true" class="slug">{{slug}}</span>
-</p>
+</div>
 
 <div class="editor">
   <article class="component">
-    <h2 contenteditable="true" class="component-title" placeholder='Title'>{{post and post.title or ''}}</h2>
-    <section contenteditable="true" class="component-body post-body">{{post and post.post or ''}}</section>
-    <button class="publish">Post</button>
+    <div class="component-compose">
+      <h2 contenteditable="true" class="component-title" placeholder='Title'>{{post and post.title or ''}}</h2>
+      <section contenteditable="true" class="component-body post-body">{{post and post.post or ''}}</section>
+      <div class="component-publish"><button class="publish">Post</button></div>
+    </div>
     <summary class="component component-body"></summary>
   </article>
   <aside id="entities" class="component">

@@ -1,0 +1,60 @@
+<style type="text/css">
+  h1, h2 {
+    display: block
+  }
+  .date {
+    color: #666;
+  }
+  .none {
+    color: #666;
+  }
+  ul.related-posts {
+    list-style-type: none;
+    padding-left: 0px;
+  }
+  ul.related-posts li {
+    margin-bottom: 10px;
+  }
+  .labels cite, .related-post-tags cite {
+
+    color: black;
+    font-style: normal;
+    background-color: #dce6f8;
+    padding: 5px 10px;
+    border-radius: 3px;
+    margin: 30px 0px;
+    line-height: 30px;
+  }
+  a.related-post {
+    border-radius: 3px;
+    background: #f9c4ff;
+    padding: 5px 10px;
+  }
+</style>
+<div id="essay">
+  <h1><cite w2gid="{{post.entity_id}}">{{title}}</cite></h1>
+  <p class="date">{{post.created}}</p>
+
+  <div>
+    {{body}}
+  </div>
+
+  <hr>
+  <p class="labels">Tags: {{tags}}</p>
+  {% if related_posts %}
+    <ul class="related-posts">
+      {% for rp in related_posts %}
+        <li>
+          <a class="related-post" href="/posts/{{rp['slug']}}">{{rp['title']}}</a> mentions
+          <span class="related-post-tags">
+            {% for tid, tval in rp['related_tags'].items() %}
+              <cite w2gid="{{tid}}">{{tval}}</cite>
+            {% endfor %}
+          </span>
+        </li>
+      {% endfor %}
+    </ul>
+  {% else %}
+    <p><i class="none">No other <a href="/posts">posts</a> with these tags.</i></p>
+  {% endif %}
+</div>
