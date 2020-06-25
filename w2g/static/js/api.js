@@ -1,13 +1,13 @@
 
 var mod;
-var Entity, Source, RemoteId, Edge, Resource;
+var Entity, Source, RemoteId, Edge, Resource, requests;
 (function () {
   'use strict'; 
 
   $.support.cors = true
   var apiurl = "https://graph.global/v1";
 
-  var requests = {
+  requests = {
     get: function(url, callback) {
       $.get(url, function(results) {
       }).done(function(data) {
@@ -116,6 +116,11 @@ var Entity, Source, RemoteId, Edge, Resource;
     update: function(id, data, callback) {
       var url = apiurl + '/entities/' + id;
       requests.put(url, data, callback);
+    },
+
+    leaderboard: function(callback) {
+      var url = apiurl + '/entities?action=leaderboard';
+      requests.get(url, callback);
     },
 
     associate_resource: function(id, resource_id, callback) {

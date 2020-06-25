@@ -32,7 +32,7 @@ var redux, urlparse, search, states;
       clear();
       $(redux.history).each(function(index, entity) {
         $('#provenance ul').append(
-          '<li>' + entity.name + '</li>'
+          '<li><entity id="' + entity.id + '">' + entity.name + '</entity></li>'
         );
       });
     };
@@ -51,46 +51,52 @@ var redux, urlparse, search, states;
     };
     var swap_dependency = function(edge) {
       return '<li class="edge">' +
-        '<span>' + edge.id + '</span>' +
+        '<div class="edge-options">' +
+          '<a class="make_entity" id="edge-' + edge.id + '">Reify</a>' +
+          '<button class="delete_edge btn-secondary" id="edge-' + edge.id + '">X</button>' +
+        '</div>' +
         '<span class="relation">' +
         '<span> <entity id="' + edge.source.id + '">' + edge.source.name + '</entity></span>' +
         '<span> <entity id="' + edge.relation.id + '">' + edge.relation.name + '</entity></span>' +
         '<span> <entity id="' + redux.entity.id + '">' + redux.entity.name + '</entity></span>' +
         '</span>' +
-        '<span>on ' + edge.created  + '</span>' +
-        '<button class="delete_edge" id="edge-' + edge.id + '">X</button>' +
-        '<button class="make_entity" id="edge-' + edge.id + '">✓</button>' +        
-        (edge.entities? ' aka <entity id="' + edge.entities[0].id + '">' + edge.entities[0].name + '</entity>' : '') +
+        (edge.entities? '<div>i.e. <entity class="alias" id="' + edge.entities[0].id + '">' + edge.entities[0].name + '</entity></div>' : '') +
+        '<div class="edge-details"><span class="edge-id">#' + edge.id + '</span>' + 
+        ' created on <span class="edge-create-date">' + edge.created  + '</div>' +
         '</li>'
     }
 
     var rel_dependency = function(edge) {
       return '<li class="edge">' +
-        '<span>' + edge.id + '</span>' +
+        '<div class="edge-options">' +
+          '<a class="make_entity" id="edge-' + edge.id + '">Reify</a>' +
+          '<button class="delete_edge btn-secondary" id="edge-' + edge.id + '">X</button>' +
+        '</div>' +
         '<span class="relation">' +
         '<span> <entity id="' + edge.source.id + '">' + edge.source.name + '</entity></span>' +
         '<span> <entity id="' + edge.relation.id + '">' + edge.relation.name + '</entity></span>' +
         '<span> <entity id="' + edge.target.id + '">' + edge.target.name + '</entity></span>' +
         '</span>' +
-        '<span>on ' + edge.created  + '</span>' +
-        '<button class="delete_edge" id="edge-' + edge.id + '">X</button>' +
-        '<button class="make_entity" id="edge-' + edge.id + '">✓</button>' +
-        (edge.entities? ' aka <entity id="' + edge.entities[0].id + '">' + edge.entities[0].name + '</entity>' : '') +
+        (edge.entities? '<div>i.e. <entity class="alias" id="' + edge.entities[0].id + '">' + edge.entities[0].name + '</entity></div>' : '') +
+        '<div class="edge-details"><span class="edge-id">#' + edge.id + '</span>' + 
+        ' created on <span class="edge-create-date">' + edge.created  + '</div>' +
         '</li>'
     }
 
     // Dependencies of (current) redux.entity 
     var dependency = function(edge) {
       return '<li class="edge">' +
-        '<span>' + edge.id + '</span>' +
+        '<div class="edge-options">' +
+          '<a class="make_entity" id="edge-' + edge.id + '">Reify</a>' +
+          '<button class="delete_edge btn-secondary" id="edge-' + edge.id + '">X</button>' +
+        '</div>' +
         '<span class="relation">' +
         '<span> <entity id="' + edge.relation.id + '">' + edge.relation.name + '</entity></span>' +
         '<span> <entity id="' + edge.target.id + '">' + edge.target.name + '</entity></span>' +
         '</span>' +
-        '<span>on ' + edge.created  + '</span>' +
-        '<button class="delete_edge" id="edge-' + edge.id + '">X</button>' +
-        '<button class="make_entity" id="edge-' + edge.id + '">✓</button>' +
-        (edge.entities? ' i.e. <entity id="' + edge.entities[0].id + '">' + edge.entities[0].name + '</entity>' : '') +
+        (edge.entities? '<div>i.e. <entity class="alias" id="' + edge.entities[0].id + '">' + edge.entities[0].name + '</entity></div>' : '') +
+        '<div class="edge-details"><span class="edge-id">#' + edge.id + '</span>' + 
+        ' created created on <span class="edge-create-date">' + edge.created  + '</div>' +
         '</li>'
     };
     var render = function(cb) {
@@ -139,6 +145,31 @@ var redux, urlparse, search, states;
       });
     };
 
+    $(document).on("click", ".btn-toggle", function(e) {
+      var e = $('#' + $(this).attr('for-id'));
+      console.log(e);
+      if (e.hasClass('hide')) {
+        e.removeClass('hide');
+      } else {
+        e.addClass('hide');
+      }
+    });
+
+    $(document).on("click", ".back", function(e) {
+      leaveContext(e);      
+    });
+
+    document.addEventListener('swiped-left', function(e) {
+      leaveContext(e);
+    });
+
+    $(document).on("click", "entity", function() {
+      var active = $(this);
+      if (active.length) {
+        EntityPage.render(active[0].id, active[0].text);
+      }
+    });
+
     $(document).on("click", ".delete_edge", function() {
       if(confirm("Are you sure you want to delete this edge?")) {
         Edge.delete($(this).attr('id').split('-')[1]);
@@ -181,7 +212,7 @@ var redux, urlparse, search, states;
       var target = 'input#edge-target';
 
       var relation_id = $(relation).siblings()[0].innerHTML;
-      var target_id = $(target).siblings()[2].innerHTML;
+      var target_id = $(target).siblings()[1].innerHTML;
 
       var relation_exists = function() {
         return !isNaN(parseInt(relation_id));
@@ -330,8 +361,9 @@ var redux, urlparse, search, states;
 
     render: function(q, cb) {
       var self = this;
+      var fun = q ? Entity.search : function(q, cb) {Entity.leaderboard(cb)};
 
-      Entity.search(q, function(results) {
+      fun(q, function(results) {
         self.clear();
         change_url('');
         redux.last_search = q;
@@ -409,6 +441,9 @@ var redux, urlparse, search, states;
   }();
 
   var History = {
+    isEmpty: function() {
+      return redux.history.length;
+    },
     add: function(e) {
       redux.history.push(e)
       Provenance.render();
@@ -472,6 +507,12 @@ var redux, urlparse, search, states;
 
     var active = $('entity.active').length? $('entity.active')[0] : undefined;
 
+    if (!active && $('#edges ul li entity').length) {
+      var active = $('#edges ul li entity')[0];      
+      var index = entities.index(active);
+      return(entities[mod(index, entities.length)]);
+    }
+
     if (active) {
       var offset = offset || 1;
       var index = entities.index(active);
@@ -529,17 +570,27 @@ var redux, urlparse, search, states;
     } 
   });
 
-  Mousetrap.bind("left", function(e) {
+  var leaveContext = function(e) {
     var last = redux.entity;
+
     EntityPage.reset();
+
     var len = redux.history.length;
     var entity = History.pop();
+
+    if ($.isEmptyObject(redux.entity) && localStorage.getItem('history')) {
+      window.location = localStorage.getItem('history');
+    }
+
     if (len && entity) {
       EntityPage.render(entity.id, entity.name, function(e) {
         var eid = "entity#" + last.id;
         selectEntity($(eid));
       });
-    } else {
+    } else if (redux.entity) {
+      if (!entity) {
+        redux.entity = {};
+      }
       var $focused = $(':focus');
       if (!$focused.is('input') || !$focused.is(':visible')) {
         SearchPage.render($('#query').val(), function() {
@@ -548,11 +599,19 @@ var redux, urlparse, search, states;
             $('#' + redux.entity.id).addClass('active');
           }
         });
+      } else {
+        redux.entity = {};
       }
+    } 
+  }
+
+  Mousetrap.bind("left", function(e) {
+    if (!$("input").is(':focus')) {
+      leaveContext(e);
     }
   });
   
-  Mousetrap.bind("ctrl+d", function(e) {
+  Mousetrap.bind("ctrl+del", function(e) {
     var active = $('entity.active');
     if (active.length) {
       if(confirm("Are you sure you want to delete this entity?")) {
@@ -627,12 +686,12 @@ var redux, urlparse, search, states;
 
   $(document).on("focusin", "input#edge-target", function() {
     var self = this;
-    bind_autocomplete(self, "input#edge-target");
+    bind_autocomplete(self, "#edge-target");
   });
 
-  $(document).on("focusin", "input#edge-relation", function() {
+  $(document).on("focusin", "#edge-relation", function() {
     var self = this;
-    bind_autocomplete(self, "input#edge-relation");
+    bind_autocomplete(self, "#edge-relation");
   });
 
 
@@ -678,7 +737,7 @@ var redux, urlparse, search, states;
   if (options.search) {
     $('#query').val(options.search)
     redux.last_search = options.search;
-    $('#query').val(redux.entity.name);    
+    $('#query').val(redux.entity.name);
   }
 
 
@@ -693,6 +752,8 @@ var redux, urlparse, search, states;
     } catch(e) {
       console.log('id must be a valid integer Entity ID');
     }
+  } else {
+    SearchResults.render(null)
   }
 
 

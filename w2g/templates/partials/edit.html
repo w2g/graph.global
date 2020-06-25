@@ -1,0 +1,25 @@
+<script type="text/javascript" src="https://graph.global/static/js/api.js"></script>
+<script type="text/javascript" src="https://graph.global/static/js/edit.js"></script>
+
+<link rel="stylesheet" type="text/css" href="/static/styles/edit.css"/>
+
+
+<p class="component-filename">
+  https://mek.fyi/posts/<span contenteditable="true" class="slug">{{slug}}</span>
+</p>
+
+<div class="editor">
+  <article class="component">
+    <h2 contenteditable="true" class="component-title" placeholder='Title'>{{post and post.title or ''}}</h2>
+    <section contenteditable="true" class="component-body post-body">{{post and post.post or ''}}</section>
+    <button class="publish">Post</button>
+    <summary class="component component-body"></summary>
+  </article>
+  <aside id="entities" class="component">
+    <h2 class="component-title">Knowledge Graph</h2>
+    <ul></ul>
+  </aside>
+</div>
+
+
+

@@ -1,0 +1,113 @@
+  #entities {
+    width: 400px;
+  }
+
+  .overlay {
+    position: fixed;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 100%;
+    width: 100%;
+    background-color: #000;
+    opacity: 0.8;
+    z-index: 2;
+  }
+
+  .editor {
+    display: flex;
+  }
+
+  .component {
+      flex: 1;
+  }
+
+  h2.component-title {
+    min-height: 20px;
+    font-size: inherit;
+    align-items: center;
+    margin: 0px;
+    display: flex;
+    font-weight: bold;
+    color: #333;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    padding: 5px 10px;
+  }
+
+  .component-title .title {
+    flex: 1;
+    margin: 0px 10px;
+  }
+  
+  .component-filename {
+    padding: 10px;
+    font-size: .9em;
+    width: 100%;
+    margin: 5px;
+    background-color: #ddd;
+    border: 1px solid #bbb;
+  }
+
+  .component-filename span {
+    padding: 0px 2px;
+    color: #365899;
+  }
+
+  .component-body {
+    border: 1px solid #eee;
+    padding: 10px;
+    font-size: .9em;
+  }
+
+  article {
+
+    width: 500px;
+  }
+
+  article input {
+    display: block;
+    padding: 5px;
+  }
+
+  article entity {
+    background-color: #4267b2;
+    padding: 2px;
+  }
+
+  #entities ul {
+    overflow: auto;
+    margin: 0px;
+    padding: 0px;
+  }
+  #entities ul li { 
+    white-space: wrap;
+    list-style-type: none;
+    padding: 10px;
+  }
+  #entities ul li:hover { 
+    background-color: #4267b2;
+  }
+
+  button.publish {
+    background-color: #365899;
+    border-color: #365899;
+    color: #fff;
+    width: 100%;
+  }
+
+  .selected {
+    background-color: #4267b2;
+  }
+
+  summary.component {
+  }
+
+  summary.component h2 {
+    display: block;
+  }
+
+  .slug {
+    display: inline-block;
+    min-width: 200px;
+  }

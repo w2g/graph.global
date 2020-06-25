@@ -14,7 +14,10 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-alpha1/jquery.min.js"></script>
         <script type="text/javascript" src="https://craig.global.ssl.fastly.net/js/mousetrap/mousetrap.min.js"></script>
-        <script src="//code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
+        <script
+           src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"
+           integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU="
+           crossorigin="anonymous"></script>
         <script type="text/javascript" src="/static/js/api.js"></script>
         <script type="text/javascript" src="/static/js/app.js"></script>
 
@@ -23,6 +26,7 @@
         <link rel="shortcut icon" href="/static/favicon.ico">
         <link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
         <link rel="stylesheet" type="text/css" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"/>
+
         <link rel="stylesheet" type="text/css" href="/static/styles/style.css"/>
     </head>
     <body>
@@ -30,10 +34,29 @@
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
 
+        <div class="banner">
+          <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="https://github.com/w2g/w2g/blob/master/README.md#introduction">About</a></li>
+            <li><a href="https://github.com/w2g/w2g">Source code</a></li>
+            <li><a href="https://www.facebook.com/michael.karpeles/videos/10102705021806480/">Demo</a></li>
+            <li><strong>↑↓</strong> change selection <strong>↔</strong> leave/enter a tag</li>
+          </ul>
+        </div>
+
         <div class="container">
-
-          {% include template %}
-
+          <div id="provenance"> 
+            <ul></ul>
+          </div>
+          <div class="app-head">
+            <h1>
+              <span id="title">World Wide Graph (w2g)</span>
+              <span id="context"></span>
+            </h1>
+          </div>
+          <div class="app-body">
+            {% include template %}
+          </div>
         </div>
 
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
