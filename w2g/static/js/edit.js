@@ -20,7 +20,7 @@ $(document).ready(function() {
   var startPos = -1;
   var currentPos = -1;
   var context = null;
-  var apiurl = 'https://graph.global/v1'
+  var apiurl = 'https://api.graph.global/v1'
 
   // avoid Chrome span spamming bug
   // https://stackoverflow.com/a/37635348/837575
@@ -82,7 +82,7 @@ $(document).ready(function() {
           return;
         } else if (p && p.posts && p.posts.length) {
           // if a post exists, update the post
-          requests.post("https://graph.global/v1/posts", data, function(resp) {
+          requests.post("https://api.graph.global/v1/posts", data, function(resp) {
             console.log(resp);
             document.location.href = '/posts/' + data.slug;
           });
@@ -96,7 +96,7 @@ $(document).ready(function() {
             } else if (es && es.entities.length) {
               data.entity_id = es.entities[0].id;
                 // create post
-                requests.post("https://graph.global/v1/posts", data, function(resp) {
+                requests.post("https://api.graph.global/v1/posts", data, function(resp) {
                   console.log(resp);
                  document.location.href = '/posts/' + data.slug;
                 });
@@ -105,7 +105,7 @@ $(document).ready(function() {
               Entity.create({name: rmW2g(data.title)}, function(tag) {
                 data.entity_id = tag.id;
                 // create post
-                requests.post("https://graph.global/v1/posts", data, function(resp) {
+                requests.post("https://api.graph.global/v1/posts", data, function(resp) {
                   console.log(resp);
                  document.location.href = '/posts/' + data.slug;
                 });

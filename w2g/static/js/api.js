@@ -5,7 +5,7 @@ var Entity, Source, RemoteId, Edge, Resource, requests;
   'use strict'; 
 
   $.support.cors = true
-  var apiurl = "https://graph.global/v1";
+  var apiurl = "https://api.graph.global/v1";
 
   requests = {
     get: function(url, callback) {
